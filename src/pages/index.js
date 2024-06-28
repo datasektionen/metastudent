@@ -1,9 +1,15 @@
-import React from "react";
+import {React} from "react";
+import logo from '../logo.svg';
  
 const Home = () => {
     return (
         <div>
-            <h1>Test</h1>
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+                <p>
+                Filler page, put content here!
+                </p>
+            </header>
         </div>
     );
 };
