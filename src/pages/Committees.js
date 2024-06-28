@@ -5,6 +5,12 @@ const Committees = () => {
             <div className="committee-info">
                 <CommitteeName name="International Committee" />
                 <InternationalCommittee />
+
+                <CommitteeName name="Qulture committee"/>
+                <QultureCommittee/>
+
+                <CommitteeName name="METAdorerna"/>
+                <METAdorerna/>
             </div>
 
             <ChapterBelonging belonging="CS committees"/>
@@ -43,6 +49,41 @@ const InternationalCommittee = () => {
             Oh, also, we are the one who maintain this website ;).
         </p>
     )
+}
+
+function QultureCommittee() {
+    return(
+        <p>
+            The Qulture Committee (Swedish: Qulturnämnden, QN) is the committee focusing on <i>qulture</i> events (yes,
+            with a q!). Come past 17:15 in META every Tuesday to play board games at what is called QN Tuesday, or enjoy LANs, 
+            screenings, food courses, theater visits, game nights and much more when announced.
+            <br/>
+            It is known QN's meetings are hosted with plenty of cookies, so join the dark side of qulture! Contact:
+            qulturattache@datasektionen.se, qulturnamnden@medieteknik.com.
+        </p>
+    );
+}
+
+
+function METAdorerna() {
+    return(
+        <p>
+            METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
+            not know yet, it is at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient 
+            <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
+                Google Maps link
+            </a>). To help clean META, the committee asks for help on Mondays, and participating at least twice 
+            lets you can attend a special party at the end of the year ;).
+            <br/>
+            Some useful links:
+            <ul>
+                <li>The <a href="https://datasektionen.se/en/clubs/metadorerna">METAdorerna page</a> on the CS chapter's
+                website, with lots of info</li>
+                <li>Contact: metadorerna@datasektionen.se</li>
+            </ul>
+        </p>
+        
+    );
 }
 
 export default Committees;
