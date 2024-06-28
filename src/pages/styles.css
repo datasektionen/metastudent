@@ -1,6 +1,5 @@
-
 .navbar {
-    position: absolute;
+    position: relative;
     width: 100%;
     display: grid;
     grid-template-columns: 0.25fr 3fr 2fr;
@@ -29,6 +28,22 @@
 
 .nav-item a {
     color:#DD9900;
+}
+
+.page-content {
+    background-color: #2a1750;
+    display: flex;
+    height: 100%;
+}
+
+.committees {
+    color: white;
+    flex-direction: row;
+    text-align: left;
+    margin-right: 1em;
+}
+.committee-info {
+    margin-left: 1em;
 }
 
 body {

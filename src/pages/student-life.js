@@ -1,13 +1,13 @@
 import {React} from 'react';
 import "../styles.css";
 
-//import Committees from './Committees';
+import Committees from './Committees';
 
 
 const StudentLife = () => {
     return (
         <div className='StudentLife'>
-            {/*<Committees />*/}
+            <Committees />
         </div>
         
     );
