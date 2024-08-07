@@ -11,6 +11,9 @@ const Committees = () => {
 
                 <CommitteeName name="METAdorerna"/>
                 <METAdorerna/>
+
+                <CommitteeName name="MetaSpexet"/>
+                <MetaSpexet/>
             </div>
 
             <ChapterBelonging belonging="CS committees"/>
@@ -96,6 +99,27 @@ function EqualityCommittee() {
             The Equality Committee (Swedish: Jämlikhetsnämnden) is the committee that makes sure you feel safe and welcome
             in the chapter! They have a <a href="https://discord.gg/UjpGaB6Ckh">Discord server</a> if you are interested
             to work on equality issues. The server is where any information, including meeting information, is posted.
+        </p>
+    )
+}
+
+function MetaSpexet() {
+    return (
+        <p>
+            MetaWhatagain? MetaSpexet! This committee is in charge of theatrical productions (spex) and is a joint committee
+            between the CS and Media chapters. There are many groups inside MetaSpexet (thatrical production is vast).
+            <br/>
+            You might be interested to join them, or just to go watch their productions ;). Recruitement is every autumn.
+            <br/>
+            Contact:
+            <ul>
+                <li> <a href="https://metaspexet.se">Website link</a> (only in Swedish)</li>
+                <li> <a href="https://www.facebook.com/metaspexet"> Facebook page</a></li>
+                <li> <a href= "https://www.instagram.com/metaspexet/"> Instagram </a></li>
+                <li> Or just go to META, you'll find the spex people easily, and they can tell you more about the 
+                    committee.
+                </li>
+            </ul>
         </p>
     )
 }
