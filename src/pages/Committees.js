@@ -6,7 +6,7 @@ const Committees = () => {
                 <CommitteeName name="International Committee" />
                 <InternationalCommittee />
 
-                <CommitteeName name="Qulture committee"/>
+                <CommitteeName name="Qulture Committee"/>
                 <QultureCommittee/>
 
                 <CommitteeName name="METAdorerna"/>
@@ -14,6 +14,10 @@ const Committees = () => {
             </div>
 
             <ChapterBelonging belonging="CS committees"/>
+            <div className="committee-info">
+                <CommitteeName name={"Equality Committee"}/>
+                <EqualityCommittee/>
+            </div>
 
             <ChapterBelonging belonging="Media committees"/>
         </div>
@@ -84,6 +88,16 @@ function METAdorerna() {
         </p>
         
     );
+}
+
+function EqualityCommittee() {
+    return (
+        <p>
+            The Equality Committee (Swedish: Jämlikhetsnämnden) is the committee that makes sure you feel safe and welcome
+            in the chapter! They have a <a href="https://discord.gg/UjpGaB6Ckh">Discord server</a> if you are interested
+            to work on equality issues. The server is where any information, including meeting information, is posted.
+        </p>
+    )
 }
 
 export default Committees;
