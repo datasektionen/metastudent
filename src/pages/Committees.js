@@ -20,9 +20,16 @@ const Committees = () => {
             <div className="committee-info">
                 <CommitteeName name={"Equality Committee"}/>
                 <EqualityCommittee/>
+
+                <CommitteeName name={"DKM"}/>
+                <DKM/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
+            <div className="committee-info">
+                <CommitteeName name="MKM"/>
+                <MKM/>
+            </div>
         </div>
     );
 }
@@ -120,6 +127,52 @@ function MetaSpexet() {
                     committee.
                 </li>
             </ul>
+        </p>
+    )
+}
+
+function DKM() {
+    return (
+        <p>
+            DKM (standing for the Swedish 'Datas Klubbmästeri') is the pub committee on the CS chapter side (see MKM for Media). 
+            The committee holds a CS pub each Wednesday at 17:17. There are some exceptional pub, including the famous 
+            TentaPub, usually the first Saturday after each exam period. DKM and MKM propose both alcoholic 
+            and <u>alcohol-free</u> beverages. Note that to enter an event by DKM, you must:
+            <ul>
+                <li>Present a valid identity document</li>
+                <li>Show your mecenat card with the chapter's logo (see below)</li>
+            </ul>
+            This is required even if you won't drink alcohol, or if you want to go to META for something else during a pub.
+            <br/>
+            The mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
+            member of THS.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: dkm@datasektionen.se</li>
+                <li><a href="https://www.facebook.com/datasklubbmasteri">Facebook page</a></li>
+                <li><a href="https://www.instagram.com/dkmkth/">Instagram</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function MKM() {
+    return (
+        <p>
+            MKM (standing for the Swedish 'Medias Klubbmästeri') is the pub committee on the Media chapter side 
+            (see DKM for Media). The committee holds a Media pub each Thursday at 17:17. There are some 
+            exceptional pub, including the famous TentaPub, usually the first Saturday after each exam period. 
+            MKM and DKM propose both alcoholic and <u>alcohol-free</u> beverages. Note that to enter an event by 
+            MKM, you must:
+            <ul>
+                <li>Present a valid identity document</li>
+                <li>Show your mecenat card with the chapter's logo (see below)</li>
+            </ul>
+            This is required even if you won't drink alcohol, or if you want to go to META for something else during a pub.
+            <br/>
+            The mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
+            member of THS.
         </p>
     )
 }
