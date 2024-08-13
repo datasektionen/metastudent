@@ -52,15 +52,15 @@ const InternationalCommittee = () => {
         <p>
             The International Committee (Swedish: Internationella Nämnden, IN) is the committee in META that 
             welcomes international students, make events for them, and helps them to participate in Computer 
-            Science and Media Technology chapters. The committee also provides a platform for Swedish students
-            The committee is open to any META student, whether from CS or Media, international or Swedish student.
+            Science and Media Technology chapters. The committee also provides a platform for Swedish students.
+            The committee is open to any META student, whether from CS or Media, international or Swedish.
             We often have collaborations with other committees.
             <br/>
             Our usual meeting time is 12:15 on Mondays. You can talk to us on
             our <a href="https://dsekt.se/whatsapp">WhatsApp group</a> to get more info and talk to international
-            sutdents.
+            students.
             <br/>
-            Oh, also, we are the one who maintain this website ;).
+            Oh, also, we are the ones maintaining this website ;).
         </p>
     )
 }
@@ -69,8 +69,8 @@ function QultureCommittee() {
     return(
         <p>
             The Qulture Committee (Swedish: Qulturnämnden, QN) is the committee focusing on <i>qulture</i> events (yes,
-            with a q!). Come past 17:15 in META every Tuesday to play board games at what is called QN Tuesday, or enjoy LANs, 
-            screenings, food courses, theater visits, game nights and much more when announced.
+            with a q!). Come past 17:17 in META every Tuesday to play board games at what is called QN Tuesday, or enjoy LANs, 
+            screenings, food courses, theater visits, game nights and much more when announced (rarely).
             <br/>
             It is known QN's meetings are hosted with plenty of cookies, so join the dark side of qulture! Contact:
             qulturattache@datasektionen.se, qulturnamnden@medieteknik.com.
@@ -83,7 +83,7 @@ function METAdorerna() {
     return(
         <p>
             METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
-            not know yet, it is at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient 
+            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient 
             <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
                 Google Maps link
             </a>). To help clean META, the committee asks for help on Mondays, and participating at least twice 
@@ -114,7 +114,7 @@ function MetaSpexet() {
     return (
         <p>
             MetaWhatagain? MetaSpexet! This committee is in charge of theatrical productions (spex) and is a joint committee
-            between the CS and Media chapters. There are many groups inside MetaSpexet (thatrical production is vast).
+            between the CS and Media chapters. There are many groups inside MetaSpexet (theatrical production is vast).
             <br/>
             You might be interested to join them, or just to go watch their productions ;). Recruitement is every autumn.
             <br/>
@@ -135,16 +135,16 @@ function DKM() {
     return (
         <p>
             DKM (standing for the Swedish 'Datas Klubbmästeri') is the pub committee on the CS chapter side (see MKM for Media). 
-            The committee holds a CS pub each Wednesday at 17:17. There are some exceptional pub, including the famous 
+            The committee holds a CS pub each Wednesday at 17:17. There are some exceptional pubs, including the famous 
             TentaPub, usually the first Saturday after each exam period. DKM and MKM propose both alcoholic 
             and <u>alcohol-free</u> beverages. Note that to enter an event by DKM, you must:
             <ul>
                 <li>Present a valid identity document</li>
-                <li>Show your mecenat card with the chapter's logo (see below)</li>
+                <li>Show your Mecenat card with the chapter's logo (see below)</li>
             </ul>
             This is required even if you won't drink alcohol, or if you want to go to META for something else during a pub.
             <br/>
-            The mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
+            The Mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
             member of THS.
             <br/>
             Contact:
@@ -162,16 +162,16 @@ function MKM() {
         <p>
             MKM (standing for the Swedish 'Medias Klubbmästeri') is the pub committee on the Media chapter side 
             (see DKM for Media). The committee holds a Media pub each Thursday at 17:17. There are some 
-            exceptional pub, including the famous TentaPub, usually the first Saturday after each exam period. 
-            MKM and DKM propose both alcoholic and <u>alcohol-free</u> beverages. Note that to enter an event by 
+            exceptional pubs, including the famous TentaPub, usually the first Saturday after each exam period. 
+            MKM and DKM serve both alcoholic and <u>alcohol-free</u> beverages. Note that to enter an event by 
             MKM, you must:
             <ul>
                 <li>Present a valid identity document</li>
-                <li>Show your mecenat card with the chapter's logo (see below)</li>
+                <li>Show your Mecenat card with the chapter's logo (see below)</li>
             </ul>
             This is required even if you won't drink alcohol, or if you want to go to META for something else during a pub.
             <br/>
-            The mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
+            The Mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
             member of THS.
         </p>
     )
