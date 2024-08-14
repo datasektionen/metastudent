@@ -1,9 +1,12 @@
-import {React} from 'react';
-import './styles.css'
-//import NavBar from './NavBar';
-
-export default function Abroad() {
-    <>
-        <h1>test</h1>
-    </>
-}
+import {React} from "react";
+import './styles.css';
+ 
+const Abroad = () => {
+    return (
+        <main>
+            <p>Coming soon (?)</p>
+        </main>
+    );
+};
+ 
+export default Abroad;

@@ -6,9 +6,11 @@ import Committees from './Committees';
 
 const StudentLife = () => {
     return (
-        <div className='StudentLife'>
-            <Committees />
-        </div>
+        <main>
+            <div className='StudentLife'>
+                <Committees />
+            </div>
+        </main>
         
     );
 };

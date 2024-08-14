@@ -12,7 +12,7 @@ function NavBar() {
                 <li className="nav-item"><Link to="/student-life">Student Life</Link></li>
                 <li className="nav-item"><Link to="/incoming-students">Incoming Students</Link></li>
                 <li className="nav-item"><Link to="/abroad">Going Abroad</Link></li>
-                <li className="nav-item"><Link to="/contact-faq">Contact & FAQ</Link></li>
+                <li className="nav-item"><Link to="/contact">Contact & FAQ</Link></li>
             </ul>
         </div>
     );
