@@ -10,6 +10,7 @@ import Home from "./pages";
 import Abroad from "./pages/abroad";
 import StudentLife from './pages/student-life';
 import NavBar from './NavBar';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -43,6 +44,12 @@ function App() {
               exact
               path="/student-life"
               element={<StudentLife />}
+            />
+
+            <Route
+                exact
+                path="/contact"
+                element={<Contact />}
             />
   
             {/* If any route mismatches the upper 

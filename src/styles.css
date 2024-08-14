@@ -20,7 +20,7 @@
     top: 50%;
     margin: 0;
     font-size: 18px;
-    color:#DD9900;
+    color:#AA7700;
 }
 
 .navbar img {
@@ -28,16 +28,30 @@
 }
 
 .nav-item a {
-    color:#DD9900;
+    color:#AA7700;
 }
 
 body {
-    display: grid;
-    /*grid-template-columns: 1fr 1fr;*/
     min-height: 1vh;
     margin: 0;
+    background-color: #2a1750;
+}
+
+main {
+    max-width: 60rem;
+    margin: auto;
+    color: white;
 }
 
 .body {
     margin-top: 64px;
+}
+
+.col-2 {
+    display: flex;
+}
+
+.col-2 div {
+    flex: 50%;
+    margin: 1rem;
 }
