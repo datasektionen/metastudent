@@ -29,6 +29,12 @@ const Committees = () => {
 
                 <CommitteeName name={"Ada"}/>
                 <Ada/>
+
+                <CommitteeName name={"Datasladden"}/>
+                <Datasladden/>
+
+                <CommitteeName name={"DEMON (Data Et Medias OrquesterNämnd)"}/>
+                <DEMON/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -192,7 +198,7 @@ function TagMonkeys() {
             displayed in META, the chapter hall.
             <br/>
             You can see what they do and check some events on their 
-            <a href="https://www.facebook.com/pages/Tag-Monkeys/120626214692945?fref=ts">Facebook page</a>. 
+            <a href="https://www.facebook.com/pages/Tag-Monkeys/120626214692945?fref=ts"> Facebook page</a>. 
             Otherwise, you can contact them on META's Slack.
         </p>
     )
@@ -211,6 +217,35 @@ function Ada() {
                 <li>Mail (head of committee): ada-ordf@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/ADAKTH">Facebook page</a></li>
             </ul>
+        </p>
+    )
+}
+
+function Datasladden() {
+    return (
+        <p>
+            Did you know the CS chapters has cars? Yes, not one, but 2! The historical car, CERISE (we named all 
+            chapter's cars after the chapter's colour), and the newer, electric car Lusen. Datsladden is the committee 
+            that takes care of both vehicles and their respective log books. The cars are often used by committees (e.g. 
+            to buy ingredients for gasques), and can be lent for free to committees and chapter members, by contacting 
+            Mulle (a.k.a. Mullerina Schmeck) at mulle@datasektionen.se and by booking the car on the 
+            <a href="https://bokning.datasektionen.se/"> chapter's booking website</a> (only in Swedish).
+            <br/>
+            There are guides about how to use the cars, but they are only in Swedish. Ask details to the mail 
+            address above. You can also book car drivers if you can't drive yourself ;).
+        </p>
+    )
+}
+
+function DEMON() {
+    return (
+        <p>
+            Interested in music? DEMON (Swedish for 'CS and Media's orchestra club') is the joined committee 
+            for music. They do not have a fixed repetition place, but can often be found at Hötorget. 
+            There instruments can be freely borrowed, including a few guitars, a digital drum set and a digital 
+            piano. The head of committee is the ÄrkeDEMON (mail: arkedemon@datasektionen.se).
+            <br/>
+            To get in the committee, try asking people in META to get access to their Slack.
         </p>
     )
 }
