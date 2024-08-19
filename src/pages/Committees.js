@@ -23,6 +23,12 @@ const Committees = () => {
 
                 <CommitteeName name={"DKM"}/>
                 <DKM/>
+
+                <CommitteeName name={"TagMonkeys"}/>
+                <TagMonkeys/>
+
+                <CommitteeName name={"Ada"}/>
+                <Ada/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -173,6 +179,38 @@ function MKM() {
             <br/>
             The Mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
             member of THS.
+        </p>
+    )
+}
+
+
+function TagMonkeys() {
+    return (
+        <p>
+            Tag Monkeys is the art and creativity committee of the CS chapter. Some events by TagMonkeys 
+            include photography walks, pumpkin carving, perler beading, etc. Some of their work can be seen 
+            displayed in META, the chapter hall.
+            <br/>
+            You can see what they do and check some events on their 
+            <a href="https://www.facebook.com/pages/Tag-Monkeys/120626214692945?fref=ts">Facebook page</a>. 
+            Otherwise, you can contact them on META's Slack.
+        </p>
+    )
+}
+
+function Ada() {
+    return (
+        <p>
+            Ada (in honour of <a href="https://en.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a>) is the committee 
+            dedicated to women and non-binary persons in the chapter. Part of their goal is to establish spaces 
+            for the aforementioned persons, so that they can meet each other. Their events are primarily for women and 
+            non-binary persons, inlcuding gasques, pubs, etc.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail (head of committee): ada-ordf@datasektionen.se</li>
+                <li><a href="https://www.facebook.com/ADAKTH">Facebook page</a></li>
+            </ul>
         </p>
     )
 }
