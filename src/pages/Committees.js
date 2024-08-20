@@ -35,6 +35,12 @@ const Committees = () => {
 
                 <CommitteeName name={"DEMON (Data Et Medias OrquesterNämnd)"}/>
                 <DEMON/>
+
+                <CommitteeName name={"DESC (Datas E-Sports Commmunity"}/>
+                <DESC/>
+
+                <CommitteeName name={"dJulkalendern"}/>
+                <DJulkalendern/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -246,6 +252,43 @@ function DEMON() {
             piano. The head of committee is the ÄrkeDEMON (mail: arkedemon@datasektionen.se).
             <br/>
             To get in the committee, try asking people in META to get access to their Slack.
+        </p>
+    )
+}
+
+function DESC() {
+    return (
+        <p>
+            DESC (Swedish for 'CS e-sport community') is the committee to look for if you are into gaming. They 
+            organize tournaments in META, gaming nights, speed runs, e-sport events watching sessions, etc. One of 
+            their goal is that chapter members play together.
+            <br/>
+            There is no "specific" membership, you are part of DESC as long as you are part of the chapter.
+            <br/>
+            Contacts:
+            <ul>
+                <li>Mail: desctop@datasektionen.se (Desctop is their title of head of committee)</li>
+                <li><a href="https://discord.gg/xwjCxXkmFM">Dicord server</a></li>
+                <li><a href="https://www.facebook.com/groups/447431545372957">Facebook page</a></li>
+            </ul>
+        </p>
+    )
+}
+
+// Required capital D so React can tell it is a React component
+function DJulkalendern() {
+    return (
+        <p>
+            Mom, can we have an advent calender committee <s>at home</s> in META? No, we already have dJulkalendern in META.
+            <br/>
+            dJulkandern proposes a challenge each Sunday of December before christmas eve! Release time is 12:15 Swedish time
+            on <a href="https://djulkalendern.se/">their website</a>. Everyone will try to clear them as fast as possible ;).
+            <br/>
+            Contacts:
+            <ul>
+                <li>Mail: djul@datasektionen.se</li>
+                <li><a href="https://dsekt.se/djul">Dicord server</a></li>
+            </ul>
         </p>
     )
 }
