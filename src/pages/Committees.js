@@ -41,6 +41,12 @@ const Committees = () => {
 
                 <CommitteeName name={"dJulkalendern"}/>
                 <DJulkalendern/>
+
+                <CommitteeName name={"dÅre"}/>
+                <DAre/>
+
+                <CommitteeName name={"Election Committee"}/>
+                <ElectionCommittee/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -288,6 +294,41 @@ function DJulkalendern() {
             <ul>
                 <li>Mail: djul@datasektionen.se</li>
                 <li><a href="https://dsekt.se/djul">Dicord server</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function DAre() {
+    return (
+        <p>
+            Want to go skiing? dÅre is the committee that organizes the yearly trip to the ski village Åre. You can contact them at
+            dare@datasektionen.se.
+        </p>
+    )
+}
+
+function ElectionCommittee() {
+    return (
+        <p>
+            An election committee? What do they do, organize elections? Exactly! Composed of 6 committee members and the Chairperson,
+            the Election Comittee (Swedish: Valberedningen) manages elections inside the chapter, and also organize the chapter fair once per year.
+            <br/>
+            Elections oversimplified:
+            <ol>
+                <li>The Election Committee opens nominations for posts</li>
+                <li>Nominated persons accept or decline</li>
+                <li>Those who accepted pass an interview</li>
+                <li>The committee make a review, stating whether the candidates are suitable for the post or not</li>
+                <li>The Chapter Meeting, taking the committee's review into account, makes a choice between the candidates</li>
+            </ol>
+            The Chapter Fair (Swedish: Sektionsmässan) is a semester-based event where committees and projects, along with chapter officials,
+            present their activities to the chapter members.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail (head of committee): valberedning-ordf@datasektionen.se</li>
+                <li>Mail (rest of the committee): valberedare@datasektionen.se</li>
             </ul>
         </p>
     )
