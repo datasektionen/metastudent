@@ -243,10 +243,10 @@ function Datasladden() {
     return (
         <p>
             Did you know the CS chapters has cars? Yes, not one, but 2! The historical car, CERISE (we named all 
-            chapter's cars after the chapter's colour), and the newer, electric car Lusen. Datsladden is the committee 
+            chapter's cars after the chapter's colour), and the newer, electric car Lusen. Datasladden is the committee
             that takes care of both vehicles and their respective log books. The cars are often used by committees (e.g. 
             to buy ingredients for gasques), and can be lent for free to committees and chapter members, by contacting 
-            Mulle (a.k.a. Mullerina Schmeck) at mulle@datasektionen.se and by booking the car on the 
+            Mullerina Schmeck (a.k.a. Mulle) at mulle@datasektionen.se and by booking the car on the
             <a href="https://bokning.datasektionen.se/"> chapter's booking website</a> (only in Swedish).
             <br/>
             There are guides about how to use the cars, but they are only in Swedish. Ask details to the mail 
@@ -293,7 +293,7 @@ function DJulkalendern() {
         <p>
             Mom, can we have an advent calender committee <s>at home</s> in META? No, we already have dJulkalendern in META.
             <br/>
-            dJulkandern proposes a challenge each Sunday of December before christmas eve! Release time is 12:15 Swedish time
+            dJulkandern proposes a challenge each Sunday of December before Christmas Eve! Release time is 12:15 Swedish time
             on <a href="https://djulkalendern.se/">their website</a>. Everyone will try to clear them as fast as possible ;).
             <br/>
             Contacts:
@@ -318,14 +318,14 @@ function ElectionCommittee() {
     return (
         <p>
             An election committee? What do they do, organize elections? Exactly! Composed of 6 committee members and the Chairperson,
-            the Election Comittee (Swedish: Valberedningen) manages elections inside the chapter, and also organize the chapter fair once per year.
+            the Election Comittee (Swedish: Valberedningen) manages elections inside the chapter, and also organize the Chapter Fair once per year.
             <br/>
             Elections oversimplified:
             <ol>
                 <li>The Election Committee opens nominations for posts</li>
                 <li>Nominated persons accept or decline</li>
                 <li>Those who accepted pass an interview</li>
-                <li>The committee make a review, stating whether the candidates are suitable for the post or not</li>
+                <li>The committee makes a review, stating whether the candidates are suitable for the post or not</li>
                 <li>The Chapter Meeting, taking the committee's review into account, makes a choice between the candidates</li>
             </ol>
             The Chapter Fair (Swedish: Sektionsmässan) is a semester-based event where committees and projects, along with chapter officials,
