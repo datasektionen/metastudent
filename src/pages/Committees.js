@@ -47,6 +47,12 @@ const Committees = () => {
 
                 <CommitteeName name={"Election Committee"}/>
                 <ElectionCommittee/>
+
+                <CommitteeName name={"GUDAR"}/>
+                <GUDAR/>
+
+                <CommitteeName name={"Project Pride"}/>
+                <ProjectPride/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -329,6 +335,36 @@ function ElectionCommittee() {
             <ul>
                 <li>Mail (head of committee): valberedning-ordf@datasektionen.se</li>
                 <li>Mail (rest of the committee): valberedare@datasektionen.se</li>
+            </ul>
+        </p>
+    )
+}
+
+function GUDAR() {
+    return (
+        <p>
+            The CS chapter is quite old, having been founded in October 1983, so it has a long history. GUDAR is a committee founded in Spring 2024
+            to safekeep and rediscover said history. You can contact the chapter's historian (mail below) if you want to know more about the
+            chapter's history, or if you would like to join GUDAR.
+            <br/>
+            Contact:
+            <ul>
+                <li>Chapter's historian: historiker@datasektionen.se</li>
+                <li>General email: gudar@datasektionen.se</li>
+            </ul>
+        </p>
+    )
+}
+
+function ProjectPride() {
+    return (
+        <p>
+            The CS chapter participates in the yearly <a href="https://www.stockholmpride.org/en/">Stockholm Pride</a> that occurs in late July to
+            early August. Project Pride is the committee that organizes this. You will learn more by announcements on the chapter's Discord server.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: pride@datasektionen.se</li>
             </ul>
         </p>
     )
