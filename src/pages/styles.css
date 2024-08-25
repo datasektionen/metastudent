@@ -39,7 +39,7 @@
 .committees {
     color: white;
     flex-direction: row;
-    text-align: left;
+    text-align: justify;
     margin-right: 1em;
 }
 .committee-info {
