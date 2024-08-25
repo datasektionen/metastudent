@@ -53,6 +53,12 @@ const Committees = () => {
 
                 <CommitteeName name={"Project Pride"}/>
                 <ProjectPride/>
+
+                <CommitteeName name={"Prylmångleriet"}/>
+                <Prylis/>
+
+                <CommitteeName name={"Editorial Board"}/>
+                <EditorialBoard/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -365,6 +371,46 @@ function ProjectPride() {
             Contact:
             <ul>
                 <li>Mail: pride@datasektionen.se</li>
+            </ul>
+        </p>
+    )
+}
+
+function Prylis() {
+    return (
+        <p>
+            Prylmångleriet (a.k.a. Prylis) is an important committee inside the chapter, as they are the one who sell patches and
+            overalls/boilersuits (Swedish: Ovve) as well as being in charge of designing new patches. If that wasn't enough they
+            also design the chapter's song book!
+            <br/>
+            Do you want to buy an Ovve or patches? The usual sale is every Wednesday from 12:15 to 13:00, just outside META. Updates
+            for the sales can be found on the chapter's Discord server, and on the committee's Facebook page (link below). If you
+            want to check if Pyrils as your size, contact them at the mail address below.
+            <br/>
+            Note that there are lots of traditions with the Ovve that you can learn about in the website, e.g. they are only washed
+            once a year in a special event!
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: prylis@datasektionen.se</li>
+                <li><a href="https://forms.gle/gaT6EWE5QfaRqNGK9">Joining form</a></li>
+                <li><a href="https://www.facebook.com/dataprylis">Facebook page</a></li>
+            </ul>
+        </p>
+    )
+}
+
+
+function EditorialBoard() {
+    return (
+        <p>
+            The CS chapter has its own newspaper, dbuggen! dbuggen is released once per period, and is
+            available <a href="https://dbu.gg/">online</a> (only in Swedish). The Editorial Board committee (Swedish: Redaqtionen)
+            is in charge of editing dbuggen.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: chefred@dbu.gg</li>
             </ul>
         </p>
     )
