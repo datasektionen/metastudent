@@ -438,18 +438,24 @@ function Scala() {
 function STUDS() {
     return (
         <p>
-            STUDS is a bit of a peculiar committee in the chapter, as it is an annual, nonprofit project and course from KTH.
-            Its goal is to open newtorks with IT companies for students. STUDS consists of 30 selected students each year,
+            STUDS is a bit of a peculiar committee in the chapter, as it is an annual, nonprofit project and course (AI2151)
+            from KTH. Its goal is to open newtorks with IT companies for students. STUDS consists of 30 selected students each year,
             which will work in different work groups that work together to organize events with companies. Some of their groups
             are IT group, travel group, event group, economy group, etc.
             <br/>
             As written above, STUDS is a course, worth 15 credits (equivalent to a full period, or half a semester). The course ends
-            with a study trip abroad. Note the course can only be joined by <u>Master students</u> at EECS!
+            with a study trip abroad. Note the course can only be joined by <u>Master students</u> at EECS, and may not be taken by
+            exchange students (you need to be here for more than 6 months)! Media students may also apply for the course, with
+            their master coordinator's approval.
+            <br/>
+            Announcements with the application form take place in August to early September, and can be found on the chapter's
+            Discord server, STUDS' website, their Facebook page and on the TVs in META.
             <br/>
             Contact:
             <ul>
                 <li><a href="https://studieresan.se">Website</a> (fully available in English)</li>
                 <li>Mail: ansvarig@studs.se</li>
+                <li><a href="https://www.kth.se/student/kurser/kurs/AI2151">Course description (KTH website)</a></li>
                 <li><a href="https://www.facebook.com/StudsKTH">Facebook page</a></li>
                 <li><a href="https://www.instagram.com/studskth">Instagram</a></li>
             </ul>
