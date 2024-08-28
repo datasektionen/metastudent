@@ -65,6 +65,12 @@ const Committees = () => {
 
                 <CommitteeName name={"Study Visit (STUDS)"}/>
                 <STUDS/>
+
+                <CommitteeName name={"Study Board"}/>
+                <StudyBoard/>
+
+                <CommitteeName name={"Baking Committee"}/>
+                <BakingCommittee/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -458,6 +464,56 @@ function STUDS() {
                 <li><a href="https://www.kth.se/student/kurser/kurs/AI2151">Course description (KTH website)</a></li>
                 <li><a href="https://www.facebook.com/StudsKTH">Facebook page</a></li>
                 <li><a href="https://www.instagram.com/studskth">Instagram</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function StudyBoard() {
+    return (
+        <p>
+            At KTH every students has the possibility to ask for improvement in the education you receive. Each Chapter has a Study
+            Board (Swedish: Studienämnden) in charge of improving the studying environment and the quality of your courses.
+            You can contact the committee, which will in turn give feedback to teachers and officials in the Chapter. They will
+            also answer your questions on education, or redirect you to someone who will.
+            <br/>
+            Contact:
+            <ul>
+                <li>Bachelor representatives (per year):</li>
+                <ul>
+                    <li>First year:     ake-1@datasektionen.se</li>
+                    <li>Second year:    ake-2@datasektionen.se</li>
+                    <li>Third year:     ake-3@datasektionen.se</li>
+                </ul>
+                <li>Master representatives:</li>
+                <ul>
+                    <li>Computer Science (TCSCM):   master-tcs@datasektionen.se</li>
+                    <li>Cyber Security (TCYSM):     master-cys@datasektionen.se</li>
+                    <li>Machine Learning (TMAIM):   master-ml@datasektionen.se</li>
+                </ul>
+                <li>Student Safety Representative (SSO): sso@datasektionen.se (e.g. for cold rooms or uncomfortable chairs)</li>
+                <li>Study Board President (SNO): sno@datasektionen.se</li>
+                <li>Program Responsible Student (PAS): pas@datasektionen.se (for long-term improvements of programs)</li>
+                <li>Chapter Board Representative for Education (DUF): d-uf@datasektionen.se (link between the committee and the Chapter Board)</li>
+                <li>The <a href="https://datasektionen.se/namnder/studienamnden?lang=en">chapter's website</a> has a much longer
+                presentation of the committee</li>
+            </ul>
+        </p>
+    )
+}
+
+function BakingCommittee() {
+    return (
+        <p>
+            Do you like to cook and bake? Then the Cooking Committee is the place for you! They also call themselves the chatper's "sweetest"
+            group for a reason, prepare yourself to learn how to bake the best fika in KTH ;). Most of the time the committee
+            members bake for themselves, but they also bake for the chapter's meetings, with themes for specific meetings. They often
+            collaborate with other committees, so you may enjoy their delicacies this way too.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: bakis@datasektionen.se</li>
+                <li><a href="https://dsekt.se/baka">Joining form</a></li>
             </ul>
         </p>
     )
