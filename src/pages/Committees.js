@@ -71,6 +71,12 @@ const Committees = () => {
 
                 <CommitteeName name={"Baking Committee"}/>
                 <BakingCommittee/>
+
+                <CommitteeName name={"Business Relations Group"}/>
+                <NLG/>
+
+                <CommitteeName name={"Information Organ"}/>
+                <IOR/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -514,6 +520,47 @@ function BakingCommittee() {
             <ul>
                 <li>Mail: bakis@datasektionen.se</li>
                 <li><a href="https://dsekt.se/baka">Joining form</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function NLG() {
+    return (
+        <p>
+            The Chapter has connections with many companies in the industry, and it is the Business Relations Group
+            (Swedish: Näringslivsgruppen, NLG) that manages these relationships. They commonly organize lunch lectures
+            from 12:12 to 13:00, where companies present themselves and jobs, projects and trainee programs that may
+            interest you. The committee posts ads from companies on the chapter's Discord, and also arranges company pubs,
+            like a usual pub on Wednseday, but where you can mingle with companies.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: foretag@datasektionen.se</li>
+                <li><a href="https://www.facebook.com/naringslivsgruppendatasektionenkth">Facebook page</a> (in Swedish only)</li>
+                <li><a href="https://www.instagram.com/nlg_data/">Instagram</a> (in Swedish only)</li>
+                <li><a href="https://www.linkedin.com/company/n%C3%A4ringslivsgruppen-datasektionen/">LinkedIn</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function IOR() {
+    return (
+        <p>
+            The Information Organ (Swedish: Informationsorganet, IOR) is a very important committee inside the chapter,
+            as it is responsible for developing and maintaining the chapter's systems, including
+            the <a href="https://github.com/datasektionen/">GitHub</a> that hosts this website code. One of the most
+            important systems is <a href="https://cashflow.datasektionen.se/">CachFlow</a> where you can ask to be refunded
+            for expenses done for the chapter! IOR organizes programming evenings where they develop the chapter's system. Anyone
+            is welcome, regardless of skill in the language/infrastructure used! Meetings usually happen at 19:00 in the E bulding.
+            You can find announcements on their Mattermost (see below).
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: ior@datasektionen.se</li>
+                <li>Head of IT's mail: d-sys@datasektionen.se</li>
+                <li><a href="https://mattermost.datasektionen.se/ior/channels/town-square">Mattermost</a></li>
             </ul>
         </p>
     )
