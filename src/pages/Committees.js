@@ -77,6 +77,9 @@ const Committees = () => {
 
                 <CommitteeName name={"Information Organ"}/>
                 <IOR/>
+
+                <CommitteeName name={"Sports Committee"}/>
+                <SportsCommittee/>
             </div>
 
             <ChapterBelonging belonging="Media committees"/>
@@ -561,6 +564,24 @@ function IOR() {
                 <li>Mail: ior@datasektionen.se</li>
                 <li>Head of IT's mail: d-sys@datasektionen.se</li>
                 <li><a href="https://mattermost.datasektionen.se/ior/channels/town-square">Mattermost</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function SportsCommittee() {
+    return (
+        <p>
+            Bored by computer science stuff and want to exercise? The Sports Committee (Swedish: Idrottsnämnden) has you covered!
+            From dodgeball to basketball and from badminton to football, the committee organizes sports sessions every Saturday;
+            the exact sport depends on what the members want to do. They propose both indoor and outdoor activities, where you
+            can meet other students from the chapter, and get info on KTH-wide sport events. They mostly interact on Facebook
+            (link below) but they also make announcements on the chapter's Discord server.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: idrott@datasektionen.se</li>
+                <li><a href="https://www.facebook.com/groups/datafotboll/">Facebook</a></li>
             </ul>
         </p>
     )
