@@ -84,6 +84,12 @@ const Committees = () => {
 
             <ChapterBelonging belonging="Media committees"/>
             <div className="committee-info">
+                <CommitteeName name="Chapter board"/>
+                <Styrelsen/>
+
+                <CommitteeName name="Election Committee"/>
+                <MediaElectionCommittee/>
+
                 <CommitteeName name="MKM"/>
                 <MKM/>
             </div>
@@ -582,6 +588,37 @@ function SportsCommittee() {
             <ul>
                 <li>Mail: idrott@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/groups/datafotboll/">Facebook</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function Styrelsen() {
+    return (
+        <p>
+            The chapter board (Swedish: Styrelsen) is the organ of the Media Technology chapter that oversees the chapter's activities.
+            All committees' chairperson report to the board, which in turn discuss and makes decisions at the highest level in the chapter.
+            Joining the board is an opportunity to influence the chapter. The board is also responsible for business issues and study monitoring.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: styrelsen@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaElectionCommittee () {
+    return (
+        <p>
+            The Election Committee (Swedish: Valberedningen) prepares and manages the elections for certain positions in the Media chatper.
+            The committee receives nominations and candidacies, asses candidates with an interview, and make a review of the candidates for
+            the next chapter meeting. The Election Committee works to keep elections democratic and ensure all candidates have an equal treatment
+            and process.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: val@medieteknik.com</li>
             </ul>
         </p>
     )
