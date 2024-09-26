@@ -98,6 +98,12 @@ const Committees = () => {
                 <CommitteeName name={"Communication Commmittee"}/>
                 <CommunicationCommittee/>
 
+                <CommitteeName name={"Carrier Fair"}/>
+                <Branschdag/>
+
+                <CommitteeName name={"Business Group"}/>
+                <BusinessGroup/>
+
                 <CommitteeName name={"MKM"}/>
                 <MKM/>
             </div>
@@ -658,6 +664,35 @@ function CommunicationCommittee () {
             Contact:
             <ul>
                 <li>Mail: kommunikator@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function Branschdag () {
+    return (
+        <p>
+            Searching for a job after KTH? Media's carrier fair (Swedish: Branschdag) is Media's fair lets you find jobs,
+            degree project or simply to enrich your network, it's up to you! Don't miss it!
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: branschdag@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function BusinessGroup () {
+    return (
+        <p>
+            The Business Group (Swedish: Näringslivsgruppen) initiate contacts with companies and provide students with opportunities
+            to build a strong network of business contacts. Working for the Business Group makes it doubly as effective for. Members
+            organise events such as mingles or recruitement events.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: nlg@medieteknik.com</li>
             </ul>
         </p>
     )
