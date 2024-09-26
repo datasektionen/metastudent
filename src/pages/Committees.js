@@ -1,6 +1,8 @@
 const Committees = () => {
     return (
         <div className="committees">
+            Some committees are shared between the computer Science and Media Technology chapters and are listed below. Others are
+            chapter-specific, so CS's Study Board is not the same committee as Media's Study Board.
             <ChapterBelonging belonging="CS-Media committees"/>
             <div className="committee-info">
                 <CommitteeName name="International Committee" />
@@ -84,13 +86,19 @@ const Committees = () => {
 
             <ChapterBelonging belonging="Media committees"/>
             <div className="committee-info">
-                <CommitteeName name="Chapter board"/>
+                <CommitteeName name={"Chapter board"}/>
                 <Styrelsen/>
 
-                <CommitteeName name="Election Committee"/>
+                <CommitteeName name={"Election Committee"}/>
                 <MediaElectionCommittee/>
 
-                <CommitteeName name="MKM"/>
+                <CommitteeName name={"Study Board"}/>
+                <MediaStudyBoard/>
+
+                <CommitteeName name={"Communication Commmittee"}/>
+                <CommunicationCommittee/>
+
+                <CommitteeName name={"MKM"}/>
                 <MKM/>
             </div>
         </div>
@@ -619,6 +627,37 @@ function MediaElectionCommittee () {
             Contact:
             <ul>
                 <li>Mail: val@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaStudyBoard() {
+    return (
+        <p>
+            The Study Board (Swedish: Studienämnden) verifies that you every student has a well-functioning education and safe
+            study environment. This applies at both programme-level and course-level. If you have any problem with courses and
+            programs, or have questions about them, you can contact the Study Board! Joining the committee lets you help everyone
+            hace a better education and you will have a better understanding of education at KTH.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: sno@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function CommunicationCommittee () {
+    return (
+        <p>
+            The Communication Committee (Swedish: Kommunikationsnämnden) is the committee in charge of Media's external branding,
+            e.g. they update Media's Instagram, Facebook, etc. They also take care of the communications within the chapter and
+            announce events. Finally, they run a podcast on Spotify!
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: kommunikator@medieteknik.com</li>
             </ul>
         </p>
     )
