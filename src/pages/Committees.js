@@ -104,6 +104,12 @@ const Committees = () => {
                 <CommitteeName name={"Business Group"}/>
                 <BusinessGroup/>
 
+                <CommitteeName name={"Party Committee"}/>
+                <Festmästeriet/>
+
+                <CommitteeName name={"Film Committee"}/>
+                <FilmCommittee/>
+
                 <CommitteeName name={"MKM"}/>
                 <MKM/>
             </div>
@@ -693,6 +699,38 @@ function BusinessGroup () {
             Contact:
             <ul>
                 <li>Mail: nlg@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function Festmästeriet () {
+    return (
+        <p>
+            Party people, here is your stuff! The Party Committee (Swedish: Festmästeri) is specialized in organizing funny and wholesome
+            parties and events. Members of the committee can do tasks as diverse as preparing the menu, doing PR (public relations, i.e.
+            advertisement), invent fun competitions for gasques or film gyckels. Join them to maximise the fun of Media's parties.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: festmasteriet@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function FilmCommittee () {
+    return (
+        <p>
+            Interested in films? The Film Committee (Swedish: Filmnämden) produces movies, including a high-effort film project for
+            each reception. They handle every part of film-making, from screen-writing, to filming, post-production, etc. You can see
+            their work on their social networks below.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: filmnamnden@medieteknik.com</li>
+                <li>Instagram: @filmnamnden</li>
+                <li><a href="https://youtube.com/@filmnamndenmedieteknik?si=MhexLexOo8W1N8eO">Youtube</a></li>
             </ul>
         </p>
     )
