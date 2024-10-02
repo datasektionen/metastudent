@@ -110,6 +110,12 @@ const Committees = () => {
                 <CommitteeName name={"Film Committee"}/>
                 <FilmCommittee/>
 
+                <CommitteeName name={"Photo Group"}/>
+                <PhotoGroup/>
+
+                <CommitteeName name={"Sports Committee"}/>
+                <MediaSportsCommittee/>
+
                 <CommitteeName name={"MKM"}/>
                 <MKM/>
             </div>
@@ -735,5 +741,37 @@ function FilmCommittee () {
         </p>
     )
 }
+
+function PhotoGroup () {
+    return (
+        <p>
+            Do you have an interest in photography? The Photo Group (Swedish: Fotogruppen) is a meeting place for all photography people of
+            the Media chapter. You do not need to have technical knowledge of camera, you can join even if you are only interested in looking
+            at others' pictures. Some members in the committee have extensive technical knowledge, some are more on the art aspect, so
+            there is much you can learn from them!
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: fotogruppen@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaSportsCommittee () {
+    return (
+        <p>
+            Come combine your studies with fresh air, exercising and meeting new friends. The Sports Committee (Swedish: Idrottsnämnden) organizes
+            sport activities for all Media students to enjoy.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: idrottsnamnden@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+
 
 export default Committees;
