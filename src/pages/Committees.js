@@ -124,6 +124,9 @@ const Committees = () => {
 
                 <CommitteeName name={"MKM"}/>
                 <MKM/>
+
+                <CommitteeName name={"Song Team"}/>
+                <Sånglederiet/>
             </div>
         </div>
     );
@@ -797,12 +800,27 @@ function Matlaget () {
 function MediaMärkt () {
     return (
         <p>
-            Your overall feels empty? Media Label (Swedish: Media Märkt) designs and sells patches so that no spot on your overall feels
+            Your coat (Swedish: B-Frak) feels empty? Media Label (Swedish: Media Märkt) designs and sells patches so that no spot on your coat feels
             like it misses something. You can also talk to them if you have questions about overalls.
             <br/>
             Contact:
             <ul>
                 <li>Mail: mediamarkering@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function Sånglederiet () {
+    return (
+        <p>
+            The Song Team (Swedish: Sånglederiet) brings together song lovers to raise their voice in harmony on great songs. They don't stop
+            at singing as they also juggle, and sometimes organize singing gasques.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: sanglederiet@medieteknik.com</li>
+                <li>Mail (head of committee): ofversangledare@medieteknik.com</li>
             </ul>
         </p>
     )
