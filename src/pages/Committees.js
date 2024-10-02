@@ -8,6 +8,9 @@ const Committees = () => {
                 <CommitteeName name="International Committee" />
                 <InternationalCommittee />
 
+                <CommitteeName name={"DEMON (Data Et Medias OrquesterNämnd)"}/>
+                <DEMON/>
+
                 <CommitteeName name="Qulture Committee"/>
                 <QultureCommittee/>
 
@@ -34,9 +37,6 @@ const Committees = () => {
 
                 <CommitteeName name={"Datasladden"}/>
                 <Datasladden/>
-
-                <CommitteeName name={"DEMON (Data Et Medias OrquesterNämnd)"}/>
-                <DEMON/>
 
                 <CommitteeName name={"DESC (Datas E-Sports Commmunity"}/>
                 <DESC/>
