@@ -116,6 +116,12 @@ const Committees = () => {
                 <CommitteeName name={"Sports Committee"}/>
                 <MediaSportsCommittee/>
 
+                <CommitteeName name={"Food Team"}/>
+                <Matlaget/>
+
+                <CommitteeName name={"Media Label"}/>
+                <MediaMärkt/>
+
                 <CommitteeName name={"MKM"}/>
                 <MKM/>
             </div>
@@ -767,6 +773,36 @@ function MediaSportsCommittee () {
             Contact:
             <ul>
                 <li>Mail: idrottsnamnden@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function Matlaget () {
+    return (
+        <p>
+            Prepare your apron and best cooking ustensils, it's time to cook. The Food Team (Swedish: Matlaget) prepares the food
+            for chapter's meetings, from planning what to cook, buy the ingredients and finally cook. The committee is open, i.e. anyone
+            in the Media chapter can join the Food Team and cook as much (or as little) as they want. It's also a great oppportunity to learn cooking, or
+            just to have fun!
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: masterkock@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaMärkt () {
+    return (
+        <p>
+            Your overall feels empty? Media Label (Swedish: Media Märkt) designs and sells patches so that no spot on your overall feels
+            like it misses something. You can also talk to them if you have questions about overalls.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: mediamarkering@medieteknik.com</li>
             </ul>
         </p>
     )
