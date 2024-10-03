@@ -1,0 +1,44 @@
+/* Sidebar.css */
+.sidebar {
+    background-color: #e83d84;
+    /* Blue background color */
+    color: #F4CE14;
+    /* White text color */
+    width: 8%;
+    height: 100%;
+    /* Make it full height */
+    position: fixed;
+    /* Fixed position so it remains visible when scrolling */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    /* Space between options */
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #0c2556;
+    overflow-y: auto;
+    z-index: 10;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-wrapper.closed {
+    transform: translateX(-250px);
+}

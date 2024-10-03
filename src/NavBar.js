@@ -6,7 +6,9 @@ function NavBar() {
         <div className="navbar"> {
             //style="height: 64px;"
         }
-            <img src={logo} alt="logo"/>
+            <Link to="/">
+                <img src={logo} alt="logo" />
+            </Link>
             <ul>
                 <li className="nav-item"><Link to="/">Home</Link></li>
                 <li className="nav-item"><Link to="/student-life">Student Life</Link></li>

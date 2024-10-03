@@ -1,5 +1,6 @@
-import {React} from "react";
- 
+import { React } from "react";
+import '../new-styles.css'
+
 const Home = () => {
     return (
         <main>
@@ -20,12 +21,12 @@ const Home = () => {
                 <div>
                     <img src="/meta-ext.png" alt="META exterior" />
                     <p>
-                    The outside of META, our chapter hall.
+                        The outside of META, our chapter hall.
                     </p>
                 </div>
             </div>
         </main>
     );
 };
- 
+
 export default Home;
