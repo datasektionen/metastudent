@@ -4,8 +4,8 @@ import '../new-styles.css'
 const Home = () => {
     return (
         <main>
-            <div className="col-2">
-                <div>
+            <div className="row">
+                <div className="col-lg mx-3">
                     <h1>Welcome to META!</h1>
                     <p>
                         META is the chapter hall shared between the Computer Science and Media Technology chapters at KTH.
@@ -18,8 +18,8 @@ const Home = () => {
                         if you have any questions (or have a passion for web design...).
                     </p>
                 </div>
-                <div>
-                    <img src="/meta-ext.png" alt="META exterior" />
+                <div className="col-8-lg mx-auto">
+                    <img src="/meta-ext.png" alt="META exterior" className="mw-100 mb-1" />
                     <p>
                         The outside of META, our chapter hall.
                     </p>
