@@ -1,6 +1,9 @@
 const Committees = () => {
     return (
         <div className="committees">
+            Committees (Swedish: nämnden) are groups inside the chapter that dedicate themselves to some part of chapter life, such as
+            student overall culture, sports, chapter management, parties, etc. They are most important and as such we describe the committees of
+            the Computer Science (CS) and Media Technology here.
             Some committees are shared between the computer Science and Media Technology chapters and are listed below. Others are
             chapter-specific, so CS's Study Board is not the same committee as Media's Study Board.
             <ChapterBelonging belonging="CS-Media committees"/>
@@ -38,7 +41,7 @@ const Committees = () => {
                 <CommitteeName name={"Datasladden"}/>
                 <Datasladden/>
 
-                <CommitteeName name={"DESC (Datas E-Sports Commmunity"}/>
+                <CommitteeName name={"DESC (Datas E-Sports Commmunity)"}/>
                 <DESC/>
 
                 <CommitteeName name={"dJulkalendern"}/>
@@ -149,7 +152,7 @@ const InternationalCommittee = () => {
         //
         <p>
             The International Committee (Swedish: Internationella Nämnden, IN) is the committee in META that 
-            welcomes international students, make events for them, and helps them to participate in Computer 
+            welcomes international students, make events for them, and helps them participate in Computer
             Science and Media Technology chapters. The committee also provides a platform for Swedish students.
             The committee is open to any META student, whether from CS or Media, international or Swedish.
             We often have collaborations with other committees.
@@ -168,10 +171,15 @@ function QultureCommittee() {
         <p>
             The Qulture Committee (Swedish: Qulturnämnden, QN) is the committee focusing on <i>qulture</i> events (yes,
             with a q!). Come past 17:17 in META every Tuesday to play board games at what is called QN Tuesday, or enjoy LANs, 
-            screenings, food courses, theater visits, game nights and much more when announced (rarely).
+            screenings, food courses, theater visits, game nights and much more when announced.
             <br/>
-            It is known QN's meetings are hosted with plenty of cookies, so join the dark side of qulture! Contact:
-            qulturattache@datasektionen.se, qulturnamnden@medieteknik.com.
+            It is known QN's meetings are hosted with plenty of cookies, so join the dark side of qulture!
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail (CS): qulturattache@datasektionen.se</li>
+                <li>Mail (Media): qulturnamnden@medieteknik.com</li>
+            </ul>
         </p>
     );
 }
@@ -180,18 +188,18 @@ function QultureCommittee() {
 function METAdorerna() {
     return(
         <p>
-            METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
-            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient 
-            <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
+            METAdorerna (meaning META doors in English) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
+            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this
+            convenient <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
                 Google Maps link
             </a>). To help clean META, the committee asks for help on Mondays, and participating at least twice 
             lets you can attend a special party at the end of the year ;).
             <br/>
-            Some useful links:
+            Contact:
             <ul>
+                <li>Mail: metadorerna@datasektionen.se</li>
                 <li>The <a href="https://datasektionen.se/en/clubs/metadorerna">METAdorerna page</a> on the CS chapter's
-                website, with lots of info</li>
-                <li>Contact: metadorerna@datasektionen.se</li>
+                website, with lots of info.</li>
             </ul>
         </p>
         
@@ -232,7 +240,7 @@ function MetaSpexet() {
 function DKM() {
     return (
         <p>
-            DKM (standing for the Swedish 'Datas Klubbmästeri') is the pub committee on the CS chapter side (see MKM for Media). 
+            DKM (standing for the Swedish "Datas Klubbmästeri") is the pub committee on the CS chapter side (see MKM for Media).
             The committee holds a CS pub each Wednesday at 17:17. There are some exceptional pubs, including the famous 
             TentaPub, usually the first Saturday after each exam period. DKM and MKM propose both alcoholic 
             and <u>alcohol-free</u> beverages. Note that to enter an event by DKM, you must:
@@ -258,7 +266,7 @@ function DKM() {
 function MKM() {
     return (
         <p>
-            MKM (standing for the Swedish 'Medias Klubbmästeri') is the pub committee on the Media chapter side 
+            MKM (standing for the Swedish "Medias Klubbmästeri") is the pub committee on the Media chapter side
             (see DKM for Media). The committee holds a Media pub each Thursday at 17:17. There are some 
             exceptional pubs, including the famous TentaPub, usually the first Saturday after each exam period. 
             MKM and DKM serve both alcoholic and <u>alcohol-free</u> beverages. Note that to enter an event by 
@@ -326,12 +334,17 @@ function Datasladden() {
 function DEMON() {
     return (
         <p>
-            Interested in music? DEMON (Swedish for 'CS and Media's orchestra club') is the joined committee 
+            Interested in music? DEMON (Swedish for "CS and Media's orchestra club") is the joined committee
             for music. They do not have a fixed repetition place, but can often be found at Hötorget. 
             There instruments can be freely borrowed, including a few guitars, a digital drum set and a digital 
-            piano. The head of committee is the ÄrkeDEMON (mail: arkedemon@datasektionen.se).
+            piano. The head of committee is the ÄrkeDEMON.
             <br/>
             To get in the committee, try asking people in META to get access to their Slack.
+            <br/>
+            Contact:
+            <ul>
+                <li>Mail: arkedemon@datasektionen.se</li>
+            </ul>
         </p>
     )
 }
@@ -339,7 +352,7 @@ function DEMON() {
 function DESC() {
     return (
         <p>
-            DESC (Swedish for 'CS e-sport community') is the committee to look for if you are into gaming. They 
+            DESC (Swedish for "CS e-sport community") is the committee to look for if you are into gaming. They
             organize tournaments in META, gaming nights, speed runs, e-sport events watching sessions, etc. One of 
             their goal is that chapter members play together.
             <br/>
@@ -494,7 +507,7 @@ function Scala() {
 function STUDS() {
     return (
         <p>
-            STUDS is a bit of a peculiar committee in the chapter, as it is an annual, nonprofit project and course (AI2151)
+            STUDS is a bit of a peculiar committee in the chapter, as it is an annual, nonprofit project and a course (AI2151)
             from KTH. Its goal is to open newtorks with IT companies for students. STUDS consists of 30 selected students each year,
             which will work in different work groups that work together to organize events with companies. Some of their groups
             are IT group, travel group, event group, economy group, etc.
@@ -595,7 +608,7 @@ function IOR() {
             The Information Organ (Swedish: Informationsorganet, IOR) is a very important committee inside the chapter,
             as it is responsible for developing and maintaining the chapter's systems, including
             the <a href="https://github.com/datasektionen/">GitHub</a> that hosts this website code. One of the most
-            important systems is <a href="https://cashflow.datasektionen.se/">CachFlow</a> where you can ask to be refunded
+            important systems is <a href="https://cashflow.datasektionen.se/">CashFlow</a> where you can ask to be refunded
             for expenses done for the chapter! IOR organizes programming evenings where they develop the chapter's system. Anyone
             is welcome, regardless of skill in the language/infrastructure used! Meetings usually happen at 19:00 in the E bulding.
             You can find announcements on their Mattermost (see below).
@@ -662,10 +675,10 @@ function MediaElectionCommittee () {
 function MediaStudyBoard() {
     return (
         <p>
-            The Study Board (Swedish: Studienämnden) verifies that you every student has a well-functioning education and safe
+            The Study Board (Swedish: Studienämnden) verifies that every student has a well-functioning education and safe
             study environment. This applies at both programme-level and course-level. If you have any problem with courses and
             programs, or have questions about them, you can contact the Study Board! Joining the committee lets you help everyone
-            hace a better education and you will have a better understanding of education at KTH.
+            have a better education and you will have a better understanding of education at KTH.
             <br/>
             Contact:
             <ul>
@@ -707,8 +720,8 @@ function Branschdag () {
 function BusinessGroup () {
     return (
         <p>
-            The Business Group (Swedish: Näringslivsgruppen) initiate contacts with companies and provide students with opportunities
-            to build a strong network of business contacts. Working for the Business Group makes it doubly as effective for. Members
+            The Business Relations Group (Swedish: Näringslivsgruppen) initiate contacts with companies and provide students with opportunities
+            to build a strong network of business contacts. Working for the Business Group makes it doubly as effective for you. Members
             organise events such as mingles or recruitement events.
             <br/>
             Contact:
@@ -785,7 +798,7 @@ function Matlaget () {
     return (
         <p>
             Prepare your apron and best cooking ustensils, it's time to cook. The Food Team (Swedish: Matlaget) prepares the food
-            for chapter's meetings, from planning what to cook, buy the ingredients and finally cook. The committee is open, i.e. anyone
+            for chapter's meetings, from planning what to cook, to buying the ingredients and finally cooking. The committee is open, i.e. anyone
             in the Media chapter can join the Food Team and cook as much (or as little) as they want. It's also a great oppportunity to learn cooking, or
             just to have fun!
             <br/>
