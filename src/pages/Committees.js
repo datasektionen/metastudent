@@ -140,7 +140,7 @@ function METAdorerna() {
     return(
         <p>
             METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
-            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient 
+            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient{' '}
             <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
                 Google Maps link
             </a>). To help clean META, the committee asks for help on Mondays, and participating at least twice 
@@ -148,7 +148,7 @@ function METAdorerna() {
             <br/>
             Some useful links:
             <ul>
-                <li>The <a href="https://datasektionen.se/en/clubs/metadorerna">METAdorerna page</a> on the CS chapter's
+                <li>The <a href="https://datasektionen.se/namnder/metadorerna?lang=en">METAdorerna page</a> on the CS chapter's
                 website, with lots of info</li>
                 <li>Contact: metadorerna@datasektionen.se</li>
             </ul>
@@ -554,7 +554,7 @@ function IOR() {
             The Information Organ (Swedish: Informationsorganet, IOR) is a very important committee inside the chapter,
             as it is responsible for developing and maintaining the chapter's systems, including
             the <a href="https://github.com/datasektionen/">GitHub</a> that hosts this website code. One of the most
-            important systems is <a href="https://cashflow.datasektionen.se/">CachFlow</a> where you can ask to be refunded
+            important systems is <a href="https://cashflow.datasektionen.se/">CashFlow</a> where you can ask to be refunded
             for expenses done for the chapter! IOR organizes programming evenings where they develop the chapter's system. Anyone
             is welcome, regardless of skill in the language/infrastructure used! Meetings usually happen at 19:00 in the E bulding.
             You can find announcements on their Mattermost (see below).
