@@ -5,6 +5,7 @@
     grid-template-columns: 0.25fr 3fr 2fr;
     background-color: #F4CE14;
 }
+
 .navbar ul {
     list-style: none;
     margin: 0;
@@ -19,7 +20,7 @@
     top: 50%;
     margin: 0;
     font-size: 18px;
-    color:#DD9900;
+    color: #DD9900;
 }
 
 .navbar img {
@@ -27,21 +28,23 @@
 }
 
 .nav-item a {
-    color:#DD9900;
+    color: #e83d84;
+    ;
 }
 
 .page-content {
-    background-color: #2a1750;
+    background-color: white;
     display: flex;
     height: 100%;
 }
 
 .committees {
-    color: white;
+    /* color: white; */
     flex-direction: row;
     text-align: justify;
     margin-right: 1em;
 }
+
 .committee-info {
     margin-left: 1em;
 }
@@ -56,3 +59,12 @@ body {
 .body {
     margin-top: 64px;
 }
+
+.cerise header {
+    background: #ec5f99;
+}
+
+/* 
+href {
+    color: #e83d84;
+} */
