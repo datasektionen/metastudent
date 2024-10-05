@@ -188,9 +188,9 @@ function QultureCommittee() {
 function METAdorerna() {
     return(
         <p>
-            METAdorerna (meaning META doors in English) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
-            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this
-            convenient <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
+            METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
+            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient{' '}
+            <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
                 Google Maps link
             </a>). To help clean META, the committee asks for help on Mondays, and participating at least twice 
             lets you can attend a special party at the end of the year ;).
@@ -198,7 +198,7 @@ function METAdorerna() {
             Contact:
             <ul>
                 <li>Mail: metadorerna@datasektionen.se</li>
-                <li>The <a href="https://datasektionen.se/en/clubs/metadorerna">METAdorerna page</a> on the CS chapter's
+                <li>The <a href="https://datasektionen.se/namnder/metadorerna?lang=en">METAdorerna page</a> on the CS chapter's
                 website, with lots of info.</li>
             </ul>
         </p>
