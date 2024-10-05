@@ -1,7 +1,7 @@
 const Committees = () => {
     return (
         <div className="committees">
-            Committees (Swedish: nämnden) are groups inside the chapter that dedicate themselves to some part of chapter life, such as
+            Committees (Swedish: nämnder) are groups inside the chapter that dedicate themselves to some part of chapter life, such as
             student overall culture, sports, chapter management, parties, etc. They are most important and as such we describe the committees of
             the Computer Science (CS) and Media Technology here.
             Some committees are shared between the computer Science and Media Technology chapters and are listed below. Others are
