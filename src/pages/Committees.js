@@ -99,13 +99,13 @@ const Committees = () => {
                 <MediaStudyBoard/>
 
                 <CommitteeName name={"Communication Commmittee"}/>
-                <CommunicationCommittee/>
+                <KomN/>
 
                 <CommitteeName name={"Carrier Fair"}/>
-                <Branschdag/>
+                <MBD/>
 
                 <CommitteeName name={"Business Group"}/>
-                <BusinessGroup/>
+                <MediaNLG/>
 
                 <CommitteeName name={"Party Committee"}/>
                 <Festmästeriet/>
@@ -177,8 +177,8 @@ function QultureCommittee() {
             <br/>
             Contact:
             <ul>
-                <li>Mail (CS): qulturattache@datasektionen.se</li>
-                <li>Mail (Media): qulturnamnden@medieteknik.com</li>
+                <li>Email (CS): qulturattache@datasektionen.se</li>
+                <li>Email (Media): qulturnamnden@medieteknik.com</li>
             </ul>
         </p>
     );
@@ -197,7 +197,7 @@ function METAdorerna() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: metadorerna@datasektionen.se</li>
+                <li>Email: metadorerna@datasektionen.se</li>
                 <li>The <a href="https://datasektionen.se/namnder/metadorerna?lang=en">METAdorerna page</a> on the CS chapter's
                 website, with lots of info.</li>
             </ul>
@@ -255,7 +255,7 @@ function DKM() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: dkm@datasektionen.se</li>
+                <li>Email: dkm@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/datasklubbmasteri">Facebook page</a></li>
                 <li><a href="https://www.instagram.com/dkmkth/">Instagram</a></li>
             </ul>
@@ -308,7 +308,7 @@ function Ada() {
             <br/>
             Contact:
             <ul>
-                <li>Mail (head of committee): ada-ordf@datasektionen.se</li>
+                <li>Email (head of committee): ada-ordf@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/ADAKTH">Facebook page</a></li>
             </ul>
         </p>
@@ -343,7 +343,7 @@ function DEMON() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: arkedemon@datasektionen.se</li>
+                <li>Email: arkedemon@datasektionen.se</li>
             </ul>
         </p>
     )
@@ -360,7 +360,7 @@ function DESC() {
             <br/>
             Contacts:
             <ul>
-                <li>Mail: desctop@datasektionen.se (Desctop is their title of head of committee)</li>
+                <li>Email: desctop@datasektionen.se (Desctop is their title of head of committee)</li>
                 <li><a href="https://discord.gg/xwjCxXkmFM">Dicord server</a></li>
                 <li><a href="https://www.facebook.com/groups/447431545372957">Facebook page</a></li>
             </ul>
@@ -379,7 +379,7 @@ function DJulkalendern() {
             <br/>
             Contacts:
             <ul>
-                <li>Mail: djul@datasektionen.se</li>
+                <li>Email: djul@datasektionen.se</li>
                 <li><a href="https://dsekt.se/djul">Dicord server</a></li>
             </ul>
         </p>
@@ -414,8 +414,8 @@ function ElectionCommittee() {
             <br/>
             Contact:
             <ul>
-                <li>Mail (head of committee): valberedning-ordf@datasektionen.se</li>
-                <li>Mail (rest of the committee): valberedare@datasektionen.se</li>
+                <li>Email (head of committee): valberedning-ordf@datasektionen.se</li>
+                <li>Email (rest of the committee): valberedare@datasektionen.se</li>
             </ul>
         </p>
     )
@@ -445,7 +445,7 @@ function ProjectPride() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: pride@datasektionen.se</li>
+                <li>Email: pride@datasektionen.se</li>
             </ul>
         </p>
     )
@@ -467,7 +467,7 @@ function Prylis() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: prylis@datasektionen.se</li>
+                <li>Email: prylis@datasektionen.se</li>
                 <li><a href="https://forms.gle/gaT6EWE5QfaRqNGK9">Joining form</a></li>
                 <li><a href="https://www.facebook.com/dataprylis">Facebook page</a></li>
             </ul>
@@ -485,7 +485,7 @@ function EditorialBoard() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: chefred@dbu.gg</li>
+                <li>Email: chefred@dbu.gg</li>
             </ul>
         </p>
     )
@@ -498,7 +498,7 @@ function Scala() {
             Contact:
             <br/>
             <ul>
-                <li>Mail: kormastare@datasektionen.se</li>
+                <li>Email: kormastare@datasektionen.se</li>
             </ul>
         </p>
     )
@@ -523,7 +523,7 @@ function STUDS() {
             Contact:
             <ul>
                 <li><a href="https://studieresan.se">Website</a> (fully available in English)</li>
-                <li>Mail: ansvarig@studs.se</li>
+                <li>Email: ansvarig@studs.se</li>
                 <li><a href="https://www.kth.se/student/kurser/kurs/AI2151">Course description (KTH website)</a></li>
                 <li><a href="https://www.facebook.com/StudsKTH">Facebook page</a></li>
                 <li><a href="https://www.instagram.com/studskth">Instagram</a></li>
@@ -575,7 +575,7 @@ function BakingCommittee() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: bakis@datasektionen.se</li>
+                <li>Email: bakis@datasektionen.se</li>
                 <li><a href="https://dsekt.se/baka">Joining form</a></li>
             </ul>
         </p>
@@ -593,7 +593,7 @@ function NLG() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: foretag@datasektionen.se</li>
+                <li>Email: foretag@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/naringslivsgruppendatasektionenkth">Facebook page</a> (in Swedish only)</li>
                 <li><a href="https://www.instagram.com/nlg_data/">Instagram</a> (in Swedish only)</li>
                 <li><a href="https://www.linkedin.com/company/n%C3%A4ringslivsgruppen-datasektionen/">LinkedIn</a></li>
@@ -615,7 +615,7 @@ function IOR() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: ior@datasektionen.se</li>
+                <li>Email: ior@datasektionen.se</li>
                 <li>Head of IT's mail: d-sys@datasektionen.se</li>
                 <li><a href="https://mattermost.datasektionen.se/ior/channels/town-square">Mattermost</a></li>
             </ul>
@@ -634,7 +634,7 @@ function SportsCommittee() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: idrott@datasektionen.se</li>
+                <li>Email: idrott@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/groups/datafotboll/">Facebook</a></li>
             </ul>
         </p>
@@ -650,7 +650,7 @@ function Styrelsen() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: styrelsen@medieteknik.com</li>
+                <li>Email: styrelsen@medieteknik.com</li>
             </ul>
         </p>
     )
@@ -666,7 +666,7 @@ function MediaElectionCommittee () {
             <br/>
             Contact:
             <ul>
-                <li>Mail: val@medieteknik.com</li>
+                <li>Email: val@medieteknik.com</li>
             </ul>
         </p>
     )
@@ -682,42 +682,43 @@ function MediaStudyBoard() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: sno@medieteknik.com</li>
+                <li>Email: sno@medieteknik.com</li>
             </ul>
         </p>
     )
 }
 
-function CommunicationCommittee () {
+function KomN () {
     return (
         <p>
             The Communication Committee (Swedish: Kommunikationsnämnden) is the committee in charge of Media's external branding,
             e.g. they update Media's Instagram, Facebook, etc. They also take care of the communications within the chapter and
-            announce events. Finally, they run a podcast on Spotify!
+            announce events. Finally, they run a podcast on Spotify! In addition to this, they propose an advent calender made of
+            24 short videos
             <br/>
             Contact:
             <ul>
-                <li>Mail: kommunikator@medieteknik.com</li>
+                <li>Email: kommunikator@medieteknik.com</li>
             </ul>
         </p>
     )
 }
 
-function Branschdag () {
+function MBD () {
     return (
         <p>
-            Searching for a job after KTH? Media's carrier fair (Swedish: Branschdag) is Media's fair lets you find jobs,
-            degree project or simply to enrich your network, it's up to you! Don't miss it!
+            Searching for a job after KTH? Media's carrier fair (Swedish: Medias Branschdag) is a large event that lets you find jobs,
+            seek degree project opportunities or simply enrich your network, it's up to you! Don't miss it!
             <br/>
             Contact:
             <ul>
-                <li>Mail: branschdag@medieteknik.com</li>
+                <li>Email: branschdag@medieteknik.com</li>
             </ul>
         </p>
     )
 }
 
-function BusinessGroup () {
+function MediaNLG () {
     return (
         <p>
             The Business Relations Group (Swedish: Näringslivsgruppen) initiate contacts with companies and provide students with opportunities
@@ -726,7 +727,7 @@ function BusinessGroup () {
             <br/>
             Contact:
             <ul>
-                <li>Mail: nlg@medieteknik.com</li>
+                <li>Email: nlg@medieteknik.com</li>
             </ul>
         </p>
     )
@@ -735,13 +736,15 @@ function BusinessGroup () {
 function Festmästeriet () {
     return (
         <p>
-            Party people, here is your stuff! The Party Committee (Swedish: Festmästeri) is specialized in organizing funny and wholesome
-            parties and events. Members of the committee can do tasks as diverse as preparing the menu, doing PR (public relations, i.e.
-            advertisement), invent fun competitions for gasques or film gyckels. Join them to maximise the fun of Media's parties.
+            Party people, here is your stuff! The Party Committee (Swedish: Festmästeriet) is specialized in organizing and hosting gasques;
+            traditional swedish student parties featuring a three course meal, fun activities and an afterparty open for everyone.
+            Members of the committee can engage in various tasks, such as deciding the menu, doing PR (i.e. marketing), inventing fun
+            competitions, or decorating the venue. Join them to maximise the fun of Media's parties.
             <br/>
             Contact:
             <ul>
-                <li>Mail: festmasteriet@medieteknik.com</li>
+                <li>Email: festmasteriet@medieteknik.com</li>
+                <li>Instagram: @festmasteriet_medieteknik</li>
             </ul>
         </p>
     )
@@ -750,13 +753,13 @@ function Festmästeriet () {
 function FilmCommittee () {
     return (
         <p>
-            Interested in films? The Film Committee (Swedish: Filmnämden) produces movies, including a high-effort film project for
-            each reception. They handle every part of film-making, from screen-writing, to filming, post-production, etc. You can see
+            Interested in films? The Film Committee (Swedish: Filmnämden) produces a high-effort film project for each reception.
+            They handle every part of film-making, from screen-writing, to filming, post-production, etc. You can see
             their work on their social networks below.
             <br/>
             Contact:
             <ul>
-                <li>Mail: filmnamnden@medieteknik.com</li>
+                <li>Email: filmnamnden@medieteknik.com</li>
                 <li>Instagram: @filmnamnden</li>
                 <li><a href="https://youtube.com/@filmnamndenmedieteknik?si=MhexLexOo8W1N8eO">Youtube</a></li>
             </ul>
@@ -768,13 +771,13 @@ function PhotoGroup () {
     return (
         <p>
             Do you have an interest in photography? The Photo Group (Swedish: Fotogruppen) is a meeting place for all photography people of
-            the Media chapter. You do not need to have technical knowledge of camera, you can join even if you are only interested in looking
+            the Media chapter. You do not need to have technical knowledge of cameras, you can join even if you are only interested in looking
             at others' pictures. Some members in the committee have extensive technical knowledge, some are more on the art aspect, so
             there is much you can learn from them!
             <br/>
             Contact:
             <ul>
-                <li>Mail: fotogruppen@medieteknik.com</li>
+                <li>Email: fotogruppen@medieteknik.com</li>
             </ul>
         </p>
     )
@@ -788,7 +791,7 @@ function MediaSportsCommittee () {
             <br/>
             Contact:
             <ul>
-                <li>Mail: idrottsnamnden@medieteknik.com</li>
+                <li>Email: idrottsnamnden@medieteknik.com</li>
             </ul>
         </p>
     )
@@ -798,13 +801,13 @@ function Matlaget () {
     return (
         <p>
             Prepare your apron and best cooking ustensils, it's time to cook. The Food Team (Swedish: Matlaget) prepares the food
-            for chapter's meetings, from planning what to cook, to buying the ingredients and finally cooking. The committee is open, i.e. anyone
+            for Media's chapter meetings, from planning what to cook, to buying the ingredients and finally cooking. The committee is open, i.e. anyone
             in the Media chapter can join the Food Team and cook as much (or as little) as they want. It's also a great oppportunity to learn cooking, or
             just to have fun!
             <br/>
             Contact:
             <ul>
-                <li>Mail: masterkock@medieteknik.com</li>
+                <li>Email: masterkock@medieteknik.com</li>
             </ul>
         </p>
     )
@@ -813,12 +816,12 @@ function Matlaget () {
 function MediaMärkt () {
     return (
         <p>
-            Your coat (Swedish: B-Frak) feels empty? Media Label (Swedish: Media Märkt) designs and sells patches so that no spot on your coat feels
+            Your tail-coat (Swedish: B-Frak) feels empty? Media Label (Swedish: Media Märkt) designs and sells patches so that no spot on your tail-coat feels
             like it misses something. You can also talk to them if you have questions about overalls.
             <br/>
             Contact:
             <ul>
-                <li>Mail: mediamarkering@medieteknik.com</li>
+                <li>Email: mediamarkering@medieteknik.com</li>
             </ul>
         </p>
     )
@@ -832,8 +835,8 @@ function Sånglederiet () {
             <br/>
             Contact:
             <ul>
-                <li>Mail: sanglederiet@medieteknik.com</li>
-                <li>Mail (head of committee): ofversangledare@medieteknik.com</li>
+                <li>Email: sanglederiet@medieteknik.com</li>
+                <li>Email (head of committee): ofversangledare@medieteknik.com</li>
             </ul>
         </p>
     )
