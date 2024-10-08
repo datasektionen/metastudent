@@ -692,9 +692,8 @@ function KomN () {
     return (
         <p>
             The Communication Committee (Swedish: Kommunikationsnämnden) is the committee in charge of Media's external branding,
-            e.g. they update Media's Instagram, Facebook, etc. They also take care of the communications within the chapter and
-            announce events. Finally, they run a podcast on Spotify! In addition to this, they propose an advent calender made of
-            24 short videos
+            e.g. they update Media's Instagram, Facebook, etc. They also propose fun, short cohesion events for the chapter and run a
+            podcast on Spotify! In addition to this, they propose an advent calender made of 24 short videos.
             <br/>
             Contact:
             <ul>
