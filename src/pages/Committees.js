@@ -151,10 +151,11 @@ const InternationalCommittee = () => {
     return(
         //
         <p>
-            The International Committee (Swedish: Internationella Nämnden, IN) is the committee in META that 
-            welcomes international students, make events for them, and helps them participate in Computer
-            Science and Media Technology chapters. The committee also provides a platform for Swedish students.
-            The committee is open to any META student, whether from CS or Media, international or Swedish.
+            The International Committee (Swedish: Internationella Nämnden, IN) is the committee in META that
+            welcomes international students, hosts events for them, and helps them participate in the Computer
+            Science and Media Technology chapters. The committee also provides a platform for Swedish students
+            to get to know new people and be a part of chapter life. The committee is open to any META student,
+            whether from CS or Media, international or Swedish.
             We often have collaborations with other committees.
             <br/>
             Our usual meeting time is 12:15 on Mondays. You can talk to us on
@@ -193,7 +194,7 @@ function METAdorerna() {
             <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
                 Google Maps link
             </a>). To help clean META, the committee asks for help on Mondays, and participating at least twice 
-            lets you can attend a special party at the end of the year ;).
+            lets you attend a special party at the end of the year ;).
             <br/>
             Contact:
             <ul>
@@ -279,6 +280,11 @@ function MKM() {
             <br/>
             The Mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
             member of THS.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: kbm@medieteknik.com</li>
+            </ul>
         </p>
     )
 }
@@ -352,9 +358,9 @@ function DEMON() {
 function DESC() {
     return (
         <p>
-            DESC (Swedish for "CS e-sport community") is the committee to look for if you are into gaming. They
+            DESC (Swedish for "Computer Science chapter's e-sport community") is the committee to look for if you are into gaming. They
             organize tournaments in META, gaming nights, speed runs, e-sport events watching sessions, etc. One of 
-            their goal is that chapter members play together.
+            their goals is to get chapter members to play together.
             <br/>
             There is no "specific" membership, you are part of DESC as long as you are part of the chapter.
             <br/>
@@ -666,7 +672,8 @@ function MediaElectionCommittee () {
             <br/>
             Contact:
             <ul>
-                <li>Email: val@medieteknik.com</li>
+                <li>Email (head of committee): valordf@medieteknik.com</li>
+                <li>Email (rest of the committee): val@medieteknik.com</li>
             </ul>
         </p>
     )
@@ -693,7 +700,7 @@ function KomN () {
         <p>
             The Communication Committee (Swedish: Kommunikationsnämnden) is the committee in charge of Media's external branding,
             e.g. they update Media's Instagram, Facebook, etc. They also propose fun, short cohesion events for the chapter and run a
-            podcast on Spotify! In addition to this, they propose an advent calender made of 24 short videos.
+            podcast on Spotify! In addition to this, they propose an advent calender made of 24 short videos every Christmas.
             <br/>
             Contact:
             <ul>
@@ -722,7 +729,7 @@ function MediaNLG () {
         <p>
             The Business Relations Group (Swedish: Näringslivsgruppen) initiate contacts with companies and provide students with opportunities
             to build a strong network of business contacts. Working for the Business Group makes it doubly as effective for you. Members
-            organise events such as mingles or recruitement events.
+            organise events such as mingles, guest lectures and recruitement events.
             <br/>
             Contact:
             <ul>
@@ -815,8 +822,8 @@ function Matlaget () {
 function MediaMärkt () {
     return (
         <p>
-            Your tail-coat (Swedish: B-Frak) feels empty? Media Label (Swedish: Media Märkt) designs and sells patches so that no spot on your tail-coat feels
-            like it misses something. You can also talk to them if you have questions about overalls.
+            Does your tail-coat (Swedish: B-Frak) feel empty? Media Label (Swedish: Media Märkt) designs and sells patches so that no spot on your tail-coat feels
+            like it's missing something. You can also talk to them if you have questions about overalls.
             <br/>
             Contact:
             <ul>
