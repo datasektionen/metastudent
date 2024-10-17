@@ -750,7 +750,7 @@ function Festmästeriet () {
             Contact:
             <ul>
                 <li>Email: festmasteriet@medieteknik.com</li>
-                <li>Instagram: @festmasteriet_medieteknik</li>
+                <li><a href="https://www.instagram.com/festmasteriet_medieteknik/">Instagram</a></li>
             </ul>
         </p>
     )
