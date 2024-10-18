@@ -4,7 +4,7 @@ const Committees = () => {
             Committees (Swedish: nämnder) are groups inside the chapter that dedicate themselves to some part of chapter life, such as
             student overall culture, sports, chapter management, parties, etc. They are most important and as such we describe the committees of
             the Computer Science (CS) and Media Technology here.
-            Some committees are shared between the computer Science and Media Technology chapters and are listed below. Others are
+            Some committees are shared between the Computer Science and Media Technology chapters and are listed below. Others are
             chapter-specific, so CS's Study Board is not the same committee as Media's Study Board.
             <ChapterBelonging belonging="CS-Media committees"/>
             <div className="committee-info">
@@ -89,7 +89,7 @@ const Committees = () => {
 
             <ChapterBelonging belonging="Media committees"/>
             <div className="committee-info">
-                <CommitteeName name={"Chapter board"}/>
+                <CommitteeName name={"Chapter Board"}/>
                 <Styrelsen/>
 
                 <CommitteeName name={"Election Committee"}/>
@@ -101,7 +101,7 @@ const Committees = () => {
                 <CommitteeName name={"Communication Commmittee"}/>
                 <KomN/>
 
-                <CommitteeName name={"Carrier Fair"}/>
+                <CommitteeName name={"Career Fair"}/>
                 <MBD/>
 
                 <CommitteeName name={"Business Group"}/>
@@ -189,12 +189,12 @@ function QultureCommittee() {
 function METAdorerna() {
     return(
         <p>
-            METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
-            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient{' '}
-            <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
+            METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META, which by now
+            you should know is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient{' '}
+            <a href="https://dsekt.se/meta">
                 Google Maps link
             </a>). To help clean META, the committee asks for help on Mondays, and participating at least twice 
-            lets you attend a special party at the end of the year ;).
+            lets you attend a special party at the end of the year for free ;).
             <br/>
             Contact:
             <ul>
@@ -268,7 +268,7 @@ function MKM() {
     return (
         <p>
             MKM (standing for the Swedish "Medias Klubbmästeri") is the pub committee on the Media chapter side
-            (see DKM for Media). The committee holds a Media pub each Thursday at 17:17. There are some 
+            (see DKM for Data). The committee holds a Media pub each Thursday at 17:17. There are some
             exceptional pubs, including the famous TentaPub, usually the first Saturday after each exam period. 
             MKM and DKM serve both alcoholic and <u>alcohol-free</u> beverages. Note that to enter an event by 
             MKM, you must:
@@ -340,12 +340,12 @@ function Datasladden() {
 function DEMON() {
     return (
         <p>
-            Interested in music? DEMON (Swedish for "CS and Media's orchestra club") is the joined committee
-            for music. They do not have a fixed repetition place, but can often be found at Hötorget. 
+            Interested in music? DEMON (Swedish for "CS and Media's orchestra club") is the joint committee
+            for music. They do not have a fixed rehearsal place, but can often be found at Hötorget.
             There instruments can be freely borrowed, including a few guitars, a digital drum set and a digital 
             piano. The head of committee is the ÄrkeDEMON.
             <br/>
-            To get in the committee, try asking people in META to get access to their Slack.
+            To get in the committee, ask ÄrkeDEMON at the address below.
             <br/>
             Contact:
             <ul>
@@ -358,7 +358,7 @@ function DEMON() {
 function DESC() {
     return (
         <p>
-            DESC (Swedish for "Computer Science chapter's e-sport community") is the committee to look for if you are into gaming. They
+            DESC (standing for "Datasektionens E-Sports Community") is the committee to look for if you are into gaming. They
             organize tournaments in META, gaming nights, speed runs, e-sport events watching sessions, etc. One of 
             their goals is to get chapter members to play together.
             <br/>
@@ -366,7 +366,7 @@ function DESC() {
             <br/>
             Contacts:
             <ul>
-                <li>Email: desctop@datasektionen.se (Desctop is their title of head of committee)</li>
+                <li>Email: desctop@datasektionen.se (DESCtop is the formal title for their committee leader)</li>
                 <li><a href="https://discord.gg/xwjCxXkmFM">Dicord server</a></li>
                 <li><a href="https://www.facebook.com/groups/447431545372957">Facebook page</a></li>
             </ul>
@@ -421,7 +421,7 @@ function ElectionCommittee() {
             Contact:
             <ul>
                 <li>Email (head of committee): valberedning-ordf@datasektionen.se</li>
-                <li>Email (rest of the committee): valberedare@datasektionen.se</li>
+                <li>Email (entire committee): valberedare@datasektionen.se</li>
             </ul>
         </p>
     )
@@ -474,7 +474,7 @@ function Prylis() {
             Contact:
             <ul>
                 <li>Email: prylis@datasektionen.se</li>
-                <li><a href="https://forms.gle/gaT6EWE5QfaRqNGK9">Joining form</a></li>
+                <li><a href="https://forms.gle/gaT6EWE5QfaRqNGK9">Recruitement form</a></li>
                 <li><a href="https://www.facebook.com/dataprylis">Facebook page</a></li>
             </ul>
         </p>
@@ -615,15 +615,16 @@ function IOR() {
             as it is responsible for developing and maintaining the chapter's systems, including
             the <a href="https://github.com/datasektionen/">GitHub</a> that hosts this website code. One of the most
             important systems is <a href="https://cashflow.datasektionen.se/">CashFlow</a> where you can ask to be refunded
-            for expenses done for the chapter! IOR organizes programming evenings where they develop the chapter's system. Anyone
-            is welcome, regardless of skill in the language/infrastructure used! Meetings usually happen at 19:00 in the E bulding.
+            for expenses done for the chapter! IOR organizes programming evenings where they develop the chapter's systems. Anyone
+            is welcome, regardless of skill in the language/infrastructure used! Meetings usually happen at 17:00 in the E bulding
+            (with large amounts of free fika).
             You can find announcements on their Mattermost (see below).
             <br/>
             Contact:
             <ul>
                 <li>Email: ior@datasektionen.se</li>
                 <li>Head of IT's mail: d-sys@datasektionen.se</li>
-                <li><a href="https://mattermost.datasektionen.se/ior/channels/town-square">Mattermost</a></li>
+                <li><a href="https://dsekt.se/ior">Mattermost</a></li>
             </ul>
         </p>
     )
@@ -713,7 +714,7 @@ function KomN () {
 function MBD () {
     return (
         <p>
-            Searching for a job after KTH? Media's carrier fair (Swedish: Medias Branschdag) is a large event that lets you find jobs,
+            Searching for a job after KTH? Media's career fair (Swedish: Medias Branschdag) is a large event that lets you find jobs,
             seek degree project opportunities or simply enrich your network, it's up to you! Don't miss it!
             <br/>
             Contact:
