@@ -614,7 +614,7 @@ function IOR() {
             The Information Organ (Swedish: Informationsorganet, IOR) is a very important committee inside the chapter,
             as it is responsible for developing and maintaining the chapter's systems, including
             the <a href="https://github.com/datasektionen/">GitHub</a> that hosts this website code. One of the most
-            important systems is <a href="https://cashflow.datasektionen.se/">CashFlow</a> where you can ask to be refunded
+            important systems is <a href="https://cashflow.datasektionen.se/">CashFlow</a> where you can ask to be reimbursed
             for expenses done for the chapter! IOR organizes programming evenings where they develop the chapter's systems. Anyone
             is welcome, regardless of skill in the language/infrastructure used! Meetings usually happen at 17:00 in the E bulding
             (with large amounts of free fika).
