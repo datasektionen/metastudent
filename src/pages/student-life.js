@@ -8,6 +8,7 @@ const StudentLife = () => {
     return (
         <main>
             <div className='StudentLife'>
+                <h1>Committees</h1>
                 <Committees />
             </div>
         </main>

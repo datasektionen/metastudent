@@ -1,10 +1,18 @@
 const Committees = () => {
     return (
         <div className="committees">
+            Committees (Swedish: nämnder) are groups inside the chapter that dedicate themselves to some part of chapter life, such as
+            student overall culture, sports, chapter management, parties, etc. They are most important and as such we describe the committees of
+            the Computer Science (CS) and Media Technology here.
+            Some committees are shared between the Computer Science and Media Technology chapters and are listed below. Others are
+            chapter-specific, so CS's Study Board is not the same committee as Media's Study Board.
             <ChapterBelonging belonging="CS-Media committees"/>
             <div className="committee-info">
                 <CommitteeName name="International Committee" />
                 <InternationalCommittee />
+
+                <CommitteeName name={"DEMON (Data Et Medias OrquesterNämnd)"}/>
+                <DEMON/>
 
                 <CommitteeName name="Qulture Committee"/>
                 <QultureCommittee/>
@@ -33,10 +41,7 @@ const Committees = () => {
                 <CommitteeName name={"Datasladden"}/>
                 <Datasladden/>
 
-                <CommitteeName name={"DEMON (Data Et Medias OrquesterNämnd)"}/>
-                <DEMON/>
-
-                <CommitteeName name={"DESC (Datas E-Sports Commmunity"}/>
+                <CommitteeName name={"DESC (Datas E-Sports Commmunity)"}/>
                 <DESC/>
 
                 <CommitteeName name={"dJulkalendern"}/>
@@ -84,8 +89,47 @@ const Committees = () => {
 
             <ChapterBelonging belonging="Media committees"/>
             <div className="committee-info">
-                <CommitteeName name="MKM"/>
+                <CommitteeName name={"Chapter Board"}/>
+                <Styrelsen/>
+
+                <CommitteeName name={"Election Committee"}/>
+                <MediaElectionCommittee/>
+
+                <CommitteeName name={"Study Board"}/>
+                <MediaStudyBoard/>
+
+                <CommitteeName name={"Communication Commmittee"}/>
+                <KomN/>
+
+                <CommitteeName name={"Career Fair"}/>
+                <MBD/>
+
+                <CommitteeName name={"Business Group"}/>
+                <MediaNLG/>
+
+                <CommitteeName name={"Party Committee"}/>
+                <Festmästeriet/>
+
+                <CommitteeName name={"Film Committee"}/>
+                <FilmCommittee/>
+
+                <CommitteeName name={"Photo Group"}/>
+                <PhotoGroup/>
+
+                <CommitteeName name={"Sports Committee"}/>
+                <MediaSportsCommittee/>
+
+                <CommitteeName name={"Food Team"}/>
+                <Matlaget/>
+
+                <CommitteeName name={"Media Label"}/>
+                <MediaMärkt/>
+
+                <CommitteeName name={"MKM"}/>
                 <MKM/>
+
+                <CommitteeName name={"Song Team"}/>
+                <Sånglederiet/>
             </div>
         </div>
     );
@@ -107,10 +151,11 @@ const InternationalCommittee = () => {
     return(
         //
         <p>
-            The International Committee (Swedish: Internationella Nämnden, IN) is the committee in META that 
-            welcomes international students, make events for them, and helps them to participate in Computer 
-            Science and Media Technology chapters. The committee also provides a platform for Swedish students.
-            The committee is open to any META student, whether from CS or Media, international or Swedish.
+            The International Committee (Swedish: Internationella Nämnden, IN) is the committee in META that
+            welcomes international students, hosts events for them, and helps them participate in the Computer
+            Science and Media Technology chapters. The committee also provides a platform for Swedish students
+            to get to know new people and be a part of chapter life. The committee is open to any META student,
+            whether from CS or Media, international or Swedish.
             We often have collaborations with other committees.
             <br/>
             Our usual meeting time is 12:15 on Mondays. You can talk to us on
@@ -127,10 +172,15 @@ function QultureCommittee() {
         <p>
             The Qulture Committee (Swedish: Qulturnämnden, QN) is the committee focusing on <i>qulture</i> events (yes,
             with a q!). Come past 17:17 in META every Tuesday to play board games at what is called QN Tuesday, or enjoy LANs, 
-            screenings, food courses, theater visits, game nights and much more when announced (rarely).
+            screenings, food courses, theater visits, game nights and much more when announced.
             <br/>
-            It is known QN's meetings are hosted with plenty of cookies, so join the dark side of qulture! Contact:
-            qulturattache@datasektionen.se, qulturnamnden@medieteknik.com.
+            It is known QN's meetings are hosted with plenty of cookies, so join the dark side of qulture!
+            <br/>
+            Contact:
+            <ul>
+                <li>Email (CS): qulturattache@datasektionen.se</li>
+                <li>Email (Media): qulturnamnden@medieteknik.com</li>
+            </ul>
         </p>
     );
 }
@@ -139,18 +189,18 @@ function QultureCommittee() {
 function METAdorerna() {
     return(
         <p>
-            METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META. If you do
-            not know yet, it is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient 
-            <a href="https://www.google.se/maps/place/META/@59.347854,18.0713357,19.33z/data=!4m6!3m5!1s0x465f9d8239dc3dc7:0x5339bd50f81e85b2!8m2!3d59.3480716!4d18.0713859!16s%2Fg%2F11tjpzdy84?entry=ttu">
+            METAdorerna (META doors) is the CS-Media committee that takes care of the Chapter Hall, META, which by now
+            you should know is located at Osquars backe 21, 114 28 Stockholm, Sweden (or use this convenient{' '}
+            <a href="https://dsekt.se/meta">
                 Google Maps link
             </a>). To help clean META, the committee asks for help on Mondays, and participating at least twice 
-            lets you can attend a special party at the end of the year ;).
+            lets you attend a special party at the end of the year for free ;).
             <br/>
-            Some useful links:
+            Contact:
             <ul>
-                <li>The <a href="https://datasektionen.se/en/clubs/metadorerna">METAdorerna page</a> on the CS chapter's
-                website, with lots of info</li>
-                <li>Contact: metadorerna@datasektionen.se</li>
+                <li>Email: metadorerna@datasektionen.se</li>
+                <li>The <a href="https://datasektionen.se/namnder/metadorerna?lang=en">METAdorerna page</a> on the CS chapter's
+                website, with lots of info.</li>
             </ul>
         </p>
         
@@ -191,7 +241,7 @@ function MetaSpexet() {
 function DKM() {
     return (
         <p>
-            DKM (standing for the Swedish 'Datas Klubbmästeri') is the pub committee on the CS chapter side (see MKM for Media). 
+            DKM (standing for the Swedish "Datas Klubbmästeri") is the pub committee on the CS chapter side (see MKM for Media).
             The committee holds a CS pub each Wednesday at 17:17. There are some exceptional pubs, including the famous 
             TentaPub, usually the first Saturday after each exam period. DKM and MKM propose both alcoholic 
             and <u>alcohol-free</u> beverages. Note that to enter an event by DKM, you must:
@@ -206,7 +256,7 @@ function DKM() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: dkm@datasektionen.se</li>
+                <li>Email: dkm@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/datasklubbmasteri">Facebook page</a></li>
                 <li><a href="https://www.instagram.com/dkmkth/">Instagram</a></li>
             </ul>
@@ -217,8 +267,8 @@ function DKM() {
 function MKM() {
     return (
         <p>
-            MKM (standing for the Swedish 'Medias Klubbmästeri') is the pub committee on the Media chapter side 
-            (see DKM for Media). The committee holds a Media pub each Thursday at 17:17. There are some 
+            MKM (standing for the Swedish "Medias Klubbmästeri") is the pub committee on the Media chapter side
+            (see DKM for Data). The committee holds a Media pub each Thursday at 17:17. There are some
             exceptional pubs, including the famous TentaPub, usually the first Saturday after each exam period. 
             MKM and DKM serve both alcoholic and <u>alcohol-free</u> beverages. Note that to enter an event by 
             MKM, you must:
@@ -230,6 +280,11 @@ function MKM() {
             <br/>
             The Mecenat card is the proof that you are a student, and the logo is obtained sometime after becoming a 
             member of THS.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: kbm@medieteknik.com</li>
+            </ul>
         </p>
     )
 }
@@ -259,7 +314,7 @@ function Ada() {
             <br/>
             Contact:
             <ul>
-                <li>Mail (head of committee): ada-ordf@datasektionen.se</li>
+                <li>Email (head of committee): ada-ordf@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/ADAKTH">Facebook page</a></li>
             </ul>
         </p>
@@ -285,12 +340,17 @@ function Datasladden() {
 function DEMON() {
     return (
         <p>
-            Interested in music? DEMON (Swedish for 'CS and Media's orchestra club') is the joined committee 
-            for music. They do not have a fixed repetition place, but can often be found at Hötorget. 
+            Interested in music? DEMON (Swedish for "CS and Media's orchestra club") is the joint committee
+            for music. They do not have a fixed rehearsal place, but can often be found at Hötorget.
             There instruments can be freely borrowed, including a few guitars, a digital drum set and a digital 
-            piano. The head of committee is the ÄrkeDEMON (mail: arkedemon@datasektionen.se).
+            piano. The head of committee is the ÄrkeDEMON.
             <br/>
-            To get in the committee, try asking people in META to get access to their Slack.
+            To get in the committee, ask ÄrkeDEMON at the address below.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: arkedemon@datasektionen.se</li>
+            </ul>
         </p>
     )
 }
@@ -298,15 +358,15 @@ function DEMON() {
 function DESC() {
     return (
         <p>
-            DESC (Swedish for 'CS e-sport community') is the committee to look for if you are into gaming. They 
+            DESC (standing for "Datasektionens E-Sports Community") is the committee to look for if you are into gaming. They
             organize tournaments in META, gaming nights, speed runs, e-sport events watching sessions, etc. One of 
-            their goal is that chapter members play together.
+            their goals is to get chapter members to play together.
             <br/>
             There is no "specific" membership, you are part of DESC as long as you are part of the chapter.
             <br/>
             Contacts:
             <ul>
-                <li>Mail: desctop@datasektionen.se (Desctop is their title of head of committee)</li>
+                <li>Email: desctop@datasektionen.se (DESCtop is the formal title for their committee leader)</li>
                 <li><a href="https://discord.gg/xwjCxXkmFM">Dicord server</a></li>
                 <li><a href="https://www.facebook.com/groups/447431545372957">Facebook page</a></li>
             </ul>
@@ -325,7 +385,7 @@ function DJulkalendern() {
             <br/>
             Contacts:
             <ul>
-                <li>Mail: djul@datasektionen.se</li>
+                <li>Email: djul@datasektionen.se</li>
                 <li><a href="https://dsekt.se/djul">Dicord server</a></li>
             </ul>
         </p>
@@ -360,8 +420,8 @@ function ElectionCommittee() {
             <br/>
             Contact:
             <ul>
-                <li>Mail (head of committee): valberedning-ordf@datasektionen.se</li>
-                <li>Mail (rest of the committee): valberedare@datasektionen.se</li>
+                <li>Email (head of committee): valberedning-ordf@datasektionen.se</li>
+                <li>Email (entire committee): valberedare@datasektionen.se</li>
             </ul>
         </p>
     )
@@ -391,7 +451,7 @@ function ProjectPride() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: pride@datasektionen.se</li>
+                <li>Email: pride@datasektionen.se</li>
             </ul>
         </p>
     )
@@ -413,8 +473,8 @@ function Prylis() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: prylis@datasektionen.se</li>
-                <li><a href="https://forms.gle/gaT6EWE5QfaRqNGK9">Joining form</a></li>
+                <li>Email: prylis@datasektionen.se</li>
+                <li><a href="https://forms.gle/gaT6EWE5QfaRqNGK9">Recruitement form</a></li>
                 <li><a href="https://www.facebook.com/dataprylis">Facebook page</a></li>
             </ul>
         </p>
@@ -431,7 +491,7 @@ function EditorialBoard() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: chefred@dbu.gg</li>
+                <li>Email: chefred@dbu.gg</li>
             </ul>
         </p>
     )
@@ -444,7 +504,7 @@ function Scala() {
             Contact:
             <br/>
             <ul>
-                <li>Mail: kormastare@datasektionen.se</li>
+                <li>Email: kormastare@datasektionen.se</li>
             </ul>
         </p>
     )
@@ -453,7 +513,7 @@ function Scala() {
 function STUDS() {
     return (
         <p>
-            STUDS is a bit of a peculiar committee in the chapter, as it is an annual, nonprofit project and course (AI2151)
+            STUDS is a bit of a peculiar committee in the chapter, as it is an annual, nonprofit project and a course (AI2151)
             from KTH. Its goal is to open newtorks with IT companies for students. STUDS consists of 30 selected students each year,
             which will work in different work groups that work together to organize events with companies. Some of their groups
             are IT group, travel group, event group, economy group, etc.
@@ -469,7 +529,7 @@ function STUDS() {
             Contact:
             <ul>
                 <li><a href="https://studieresan.se">Website</a> (fully available in English)</li>
-                <li>Mail: ansvarig@studs.se</li>
+                <li>Email: ansvarig@studs.se</li>
                 <li><a href="https://www.kth.se/student/kurser/kurs/AI2151">Course description (KTH website)</a></li>
                 <li><a href="https://www.facebook.com/StudsKTH">Facebook page</a></li>
                 <li><a href="https://www.instagram.com/studskth">Instagram</a></li>
@@ -521,7 +581,7 @@ function BakingCommittee() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: bakis@datasektionen.se</li>
+                <li>Email: bakis@datasektionen.se</li>
                 <li><a href="https://dsekt.se/baka">Joining form</a></li>
             </ul>
         </p>
@@ -539,7 +599,7 @@ function NLG() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: foretag@datasektionen.se</li>
+                <li>Email: foretag@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/naringslivsgruppendatasektionenkth">Facebook page</a> (in Swedish only)</li>
                 <li><a href="https://www.instagram.com/nlg_data/">Instagram</a> (in Swedish only)</li>
                 <li><a href="https://www.linkedin.com/company/n%C3%A4ringslivsgruppen-datasektionen/">LinkedIn</a></li>
@@ -554,16 +614,17 @@ function IOR() {
             The Information Organ (Swedish: Informationsorganet, IOR) is a very important committee inside the chapter,
             as it is responsible for developing and maintaining the chapter's systems, including
             the <a href="https://github.com/datasektionen/">GitHub</a> that hosts this website code. One of the most
-            important systems is <a href="https://cashflow.datasektionen.se/">CachFlow</a> where you can ask to be refunded
-            for expenses done for the chapter! IOR organizes programming evenings where they develop the chapter's system. Anyone
-            is welcome, regardless of skill in the language/infrastructure used! Meetings usually happen at 19:00 in the E bulding.
+            important systems is <a href="https://cashflow.datasektionen.se/">CashFlow</a> where you can ask to be reimbursed
+            for expenses done for the chapter! IOR organizes programming evenings where they develop the chapter's systems. Anyone
+            is welcome, regardless of skill in the language/infrastructure used! Meetings usually happen at 17:00 in the E bulding
+            (with large amounts of free fika).
             You can find announcements on their Mattermost (see below).
             <br/>
             Contact:
             <ul>
-                <li>Mail: ior@datasektionen.se</li>
+                <li>Email: ior@datasektionen.se</li>
                 <li>Head of IT's mail: d-sys@datasektionen.se</li>
-                <li><a href="https://mattermost.datasektionen.se/ior/channels/town-square">Mattermost</a></li>
+                <li><a href="https://dsekt.se/ior">Mattermost</a></li>
             </ul>
         </p>
     )
@@ -580,11 +641,214 @@ function SportsCommittee() {
             <br/>
             Contact:
             <ul>
-                <li>Mail: idrott@datasektionen.se</li>
+                <li>Email: idrott@datasektionen.se</li>
                 <li><a href="https://www.facebook.com/groups/datafotboll/">Facebook</a></li>
             </ul>
         </p>
     )
 }
+
+function Styrelsen() {
+    return (
+        <p>
+            The chapter board (Swedish: Styrelsen) is the organ of the Media Technology chapter that oversees the chapter's activities.
+            All committees' chairperson report to the board, which in turn discuss and makes decisions at the highest level in the chapter.
+            Joining the board is an opportunity to influence the chapter. The board is also responsible for business issues and study monitoring.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: styrelsen@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaElectionCommittee () {
+    return (
+        <p>
+            The Election Committee (Swedish: Valberedningen) prepares and manages the elections for certain positions in the Media chatper.
+            The committee receives nominations and candidacies, asses candidates with an interview, and make a review of the candidates for
+            the next chapter meeting. The Election Committee works to keep elections democratic and ensure all candidates have an equal treatment
+            and process.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email (head of committee): valordf@medieteknik.com</li>
+                <li>Email (rest of the committee): val@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaStudyBoard() {
+    return (
+        <p>
+            The Study Board (Swedish: Studienämnden) verifies that every student has a well-functioning education and safe
+            study environment. This applies at both programme-level and course-level. If you have any problem with courses and
+            programs, or have questions about them, you can contact the Study Board! Joining the committee lets you help everyone
+            have a better education and you will have a better understanding of education at KTH.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: sno@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function KomN () {
+    return (
+        <p>
+            The Communication Committee (Swedish: Kommunikationsnämnden) is the committee in charge of Media's external branding,
+            e.g. they update Media's Instagram, Facebook, etc. They also propose fun, short cohesion events for the chapter and run a
+            podcast on Spotify! In addition to this, they propose an advent calender made of 24 short videos every Christmas.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: kommunikator@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MBD () {
+    return (
+        <p>
+            Searching for a job after KTH? Media's career fair (Swedish: Medias Branschdag) is a large event that lets you find jobs,
+            seek degree project opportunities or simply enrich your network, it's up to you! Don't miss it!
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: branschdag@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaNLG () {
+    return (
+        <p>
+            The Business Relations Group (Swedish: Näringslivsgruppen) initiate contacts with companies and provide students with opportunities
+            to build a strong network of business contacts. Working for the Business Group makes it doubly as effective for you. Members
+            organise events such as mingles, guest lectures and recruitement events.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: nlg@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function Festmästeriet () {
+    return (
+        <p>
+            Party people, here is your stuff! The Party Committee (Swedish: Festmästeriet) is specialized in organizing and hosting gasques;
+            traditional swedish student parties featuring a three course meal, fun activities and an afterparty open for everyone.
+            Members of the committee can engage in various tasks, such as deciding the menu, doing PR (i.e. marketing), inventing fun
+            competitions, or decorating the venue. Join them to maximise the fun of Media's parties.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: festmasteriet@medieteknik.com</li>
+                <li><a href="https://www.instagram.com/festmasteriet_medieteknik/">Instagram</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function FilmCommittee () {
+    return (
+        <p>
+            Interested in films? The Film Committee (Swedish: Filmnämden) produces a high-effort film project for each reception.
+            They handle every part of film-making, from screen-writing, to filming, post-production, etc. You can see
+            their work on their social networks below.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: filmnamnden@medieteknik.com</li>
+                <li>Instagram: @filmnamnden</li>
+                <li><a href="https://youtube.com/@filmnamndenmedieteknik?si=MhexLexOo8W1N8eO">Youtube</a></li>
+            </ul>
+        </p>
+    )
+}
+
+function PhotoGroup () {
+    return (
+        <p>
+            Do you have an interest in photography? The Photo Group (Swedish: Fotogruppen) is a meeting place for all photography people of
+            the Media chapter. You do not need to have technical knowledge of cameras, you can join even if you are only interested in looking
+            at others' pictures. Some members in the committee have extensive technical knowledge, some are more on the art aspect, so
+            there is much you can learn from them!
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: fotogruppen@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaSportsCommittee () {
+    return (
+        <p>
+            Come combine your studies with fresh air, exercising and meeting new friends. The Sports Committee (Swedish: Idrottsnämnden) organizes
+            sport activities for all Media students to enjoy.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: idrottsnamnden@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function Matlaget () {
+    return (
+        <p>
+            Prepare your apron and best cooking ustensils, it's time to cook. The Food Team (Swedish: Matlaget) prepares the food
+            for Media's chapter meetings, from planning what to cook, to buying the ingredients and finally cooking. The committee is open, i.e. anyone
+            in the Media chapter can join the Food Team and cook as much (or as little) as they want. It's also a great oppportunity to learn cooking, or
+            just to have fun!
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: masterkock@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function MediaMärkt () {
+    return (
+        <p>
+            Does your tail-coat (Swedish: B-Frak) feel empty? Media Label (Swedish: Media Märkt) designs and sells patches so that no spot on your tail-coat feels
+            like it's missing something. You can also talk to them if you have questions about overalls.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: mediamarkering@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+function Sånglederiet () {
+    return (
+        <p>
+            The Song Team (Swedish: Sånglederiet) brings together song lovers to raise their voice in harmony on great songs. They don't stop
+            at singing as they also juggle, and sometimes organize singing gasques.
+            <br/>
+            Contact:
+            <ul>
+                <li>Email: sanglederiet@medieteknik.com</li>
+                <li>Email (head of committee): ofversangledare@medieteknik.com</li>
+            </ul>
+        </p>
+    )
+}
+
+
 
 export default Committees;
