@@ -1,7 +1,7 @@
 /* Main Contact Page Styling */
 .contact-page {
-    width: calc(100% - 200px); /* Adjust width to account for menu width */
-    margin-left: 200px; /* Offset the entire section to the right of the menu */
+    width: calc(100% - 200px);
+    margin-left: 200px; 
     color: var(--gray-dark);
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
@@ -10,7 +10,7 @@
     border-radius: 0;
 }
 
-/* Contact Information Section with Box Styling */
+/* Contact Information Section */
 .chapter-contacts {
     display: flex;
     justify-content: center;
@@ -27,14 +27,14 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    background-color: #f0f0f0; /* Same background as FAQ boxes */
+    background-color: #f0f0f0;
     border-radius: 8px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Same shadow as FAQ */
-    margin: 1rem 0; /* Space between contact sections */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
 }
 
 .contact-info h1 {
-    color: #e83d84; /* Pink color for headers */
+    color: #e83d84; /* cerise color for headers */
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0 0 0.5rem 0;
@@ -54,7 +54,7 @@
 }
 
 .FAQ h2 {
-    color: #e83d84; /* Pink color for FAQ title */
+    color: #e83d84; /* cerise color for FAQ title */
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -87,20 +87,20 @@
     margin-top: 0.5rem;
     font-size: 1rem;
     color: var(--gray-dark);
-    max-height: 0; /* Ensures hidden by default */
+    max-height: 0; 
     overflow: hidden;
     transition: max-height 0.3s ease, padding 0.3s ease;
     padding: 0;
 }
 
 .FAQ-content.expanded .FAQ-answer {
-    max-height: 500px; /* Only expands when FAQ is clicked */
+    max-height: 500px; 
     padding: 0.5rem 0;
 }
 
 
 .FAQ h2 {
-    color: #e83d84; /* Pink color for FAQ title */
+    color: #e83d84; /* cerise color for FAQ title */
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -111,7 +111,7 @@
     background-color: #f0f0f0;
     color: var(--gray-dark);
     border-radius: 8px;
-    margin: 1rem 0; /* Add spacing between FAQ items */
+    margin: 1rem 0;
     transition: background-color 0.3s ease, transform 0.2s ease;
     cursor: pointer;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
@@ -146,14 +146,14 @@
 }
 
 .in-tem h2 {
-    color: #e83d84; /* Pink color for headers */
+    color: #e83d84; /* cerise color for headers */
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
 .in-tem ul {
-    list-style: none; /* Removes bullets from list items */
+    list-style: none;
     padding: 0;
     margin: 0;
 }
