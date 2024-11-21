@@ -12430,7 +12430,7 @@ a.text-dark:hover {
 }
 
 .sidebar-default .iq-sidebar-menu .side-menu li a:hover {
-    color: #fff;
+    color: #ffe900;
     background-color: hsla(0, 0%, 100%, .08);
     border-radius: 5px
 }
