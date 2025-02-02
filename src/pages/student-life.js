@@ -6,7 +6,7 @@ import Committees from './Committees';
 
 const StudentLife = () => {
     return (
-        <main>
+        <main className='text-container text-container-mw'>
             <div className='StudentLife'>
                 <h1>Committees</h1>
                 <Committees />
