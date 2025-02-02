@@ -134,7 +134,7 @@ function METAdorerna() {
             Contact:
             <ul>
                 <li>Email: metadorerna@datasektionen.se</li>
-                <li>The <a href="https://datasektionen.se/namnder/metadorerna?lang=en">METAdorerna page</a> on the CS chapter's
+                <li>The <a href="https://datasektionen.se/namnder/forvaltningsorganet/metadorerna?lang=en">METAdorerna page</a> on the CS chapter's
                 website, with lots of info.</li>
             </ul>
         </section>
@@ -333,7 +333,7 @@ function DESC() {
             Contacts:
             <ul>
                 <li>Email: desctop@datasektionen.se (DESCtop is the formal title for their committee leader)</li>
-                <li><a href="https://discord.gg/xwjCxXkmFM">Dicord server</a></li>
+                <li><a href="https://discord.gg/xwjCxXkmFM">Discord server</a></li>
                 <li><a href="https://www.facebook.com/groups/447431545372957">Facebook page</a></li>
             </ul>
         </section>
@@ -557,7 +557,7 @@ function StudyBoard() {
                 <li>Study Board President (SNO): sno@datasektionen.se</li>
                 <li>Program Responsible Student (PAS): pas@datasektionen.se (for long-term improvements of programs)</li>
                 <li>Chapter Board Representative for Education (DUF): d-uf@datasektionen.se (link between the committee and the Chapter Board)</li>
-                <li>The <a href="https://datasektionen.se/namnder/studienamnden?lang=en">chapter's website</a> has a much longer
+                <li>The <a href="https://datasektionen.se/namnder/paverkansorganet/studienamnden?lang=en">chapter's website</a> has a much longer
                 presentation of the committee</li>
             </ul>
         </section>
@@ -623,7 +623,7 @@ function IOR() {
             <ul>
                 <li>Email: ior@datasektionen.se</li>
                 <li>Head of IT's mail: d-sys@datasektionen.se</li>
-                <li><a href="https://dsekt.se/ior">Mattermost</a></li>
+                <li><a href="https://dsekt.se/iormost">Mattermost</a></li>
             </ul>
         </section>
     )
