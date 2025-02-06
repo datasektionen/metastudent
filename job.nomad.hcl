@@ -3,7 +3,9 @@ job "metastudent" {
 
   group "metastudent" {
     network {
-      port "http" { }
+      port "http" {
+        to = 3000
+      }
     }
 
     service {
@@ -12,7 +14,7 @@ job "metastudent" {
       provider = "nomad"
       tags = [
         "traefik.enable=true",
-        "traefik.http.routers.metastudent.rule=Host(`metastudent.se`)",
+        "traefik.http.routers.metastudent.rule=Host(`metastudent.se`)||Host(`www.metastudent.se`)",
         "traefik.http.routers.metastudent.tls.certresolver=default",
       ]
     }
@@ -23,14 +25,6 @@ job "metastudent" {
       config {
         image = var.image_tag
         ports = ["http"]
-      }
-
-      template {
-        data        = <<ENV
-PORT={{ env "NOMAD_PORT_http" }}
-ENV
-        destination = "local/.env"
-        env         = true
       }
 
       resources {
