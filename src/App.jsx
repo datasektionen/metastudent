@@ -5,13 +5,13 @@ import {
   Routes,
   Route,
   Navigate,
-} from "react-router-dom";
-import Home from "./pages";
+} from "react-router";
+import Home from "./pages/home";
 import Abroad from "./pages/abroad";
 import StudentLife from './pages/student-life';
-import NavBar from './NavBar';
+// import NavBar from './NavBar';
 import Sidebar from './Sidebar';
-import Header from './Header.js';
+// import Header from './Header.js';
 import Contact from './pages/contact';
 import './new-styles.css'
 // import NavBar from './NavBar.js';
