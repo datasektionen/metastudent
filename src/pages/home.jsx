@@ -1,5 +1,6 @@
 import { React } from "react";
 import '../new-styles.css'
+import meta from "../assets/meta-ext.png";
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="col-8-lg mx-auto">
-                    <img src="/meta-ext.png" alt="META exterior" className="mw-100 mb-1" />
+                    <img src={meta} alt="META exterior" className="mw-100 mb-1" />
                     <p>
                         The outside of META, our chapter hall.
                     </p>

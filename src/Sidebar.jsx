@@ -1,11 +1,11 @@
 // src/components/Sidebar.js
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router';
 import './Sidebar.css'; // Import the CSS file
 import './new-styles.css'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
-import logo from './in-newlogo2.png';
+import logo from './assets/in-logo.png';
 
 function Sidebar() {
     const SHOW_SIDEBAR = 1400;
