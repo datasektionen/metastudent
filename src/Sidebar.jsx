@@ -82,7 +82,7 @@ function Sidebar() {
         <div className='iq-sidebar sidebar-default' style={{ left: sidebarOpen ? '0' : '-300px', zIndex: '999' }} > {/* Apply the "sidebar" class */}
             {/* <Logo toggleSidebar={toggleSidebar} sideBarOpen={sidebarOpen} /> */}
             <div className='iq-sidebar-logo d-flex align-items-end justify-content-between' style={{ paddingTop: '10px' }}>
-                <Link className="header-logo">
+                <Link to="/" className="header-logo">
                     <img src={logo} alt="logo" style={{ width: "70px", height: "70px" }} />
                     {/* <IoMdClose size="30px" style={{ marginLeft: '120px', marginTop: '-30px', color: '#F4CE14' }} /> */}
                 </Link>

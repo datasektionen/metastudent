@@ -41,12 +41,8 @@
 .committees {
     /* color: white; */
     flex-direction: row;
-    text-align: justify;
+    text-align: left;
     margin-right: 1em;
-}
-
-.committee-info {
-    margin-left: 1em;
 }
 
 body {
