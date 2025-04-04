@@ -1,4 +1,7 @@
+import { useRef } from "react";
 import styles from "./Committees.module.css";
+import Collapse from "bootstrap/js/dist/collapse";
+import { useEffect } from "react";
 
 const Committees = () => {
     return (
@@ -78,7 +81,14 @@ const Committee = ({ name, children }) => {
     const id = name.toLowerCase().replace(/[^A-Za-z]/g, "-");
     const headerId = id + "-header";
     const collapseId = id + "-collapse";
+    const collapseRef = useRef(null);
 
+    useEffect(() => {
+        if (collapseRef.current) {
+            new Collapse(collapseRef.current, { toggle: false });
+        }
+    }, [collapseRef]);
+    
     return (
         <section className={"card " + styles.committee} id={id}>
             <div className="card-header" id={headerId}>
@@ -88,8 +98,8 @@ const Committee = ({ name, children }) => {
                         styles["accordion-button"]
                     }
                     type="button"
-                    data-toggle="collapse"
-                    data-target={"#" + collapseId}
+                    data-bs-toggle="collapse"
+                    data-bs-target={"#" + collapseId}
                     aria-controls={collapseId}
                 >
                     <h3 className="mb-0">{name}</h3>
@@ -100,6 +110,7 @@ const Committee = ({ name, children }) => {
                 id={collapseId}
                 className="collapse"
                 aria-labelledby={headerId}
+                ref={collapseRef}
             >
                 <div className="card-body">{children}</div>
             </div>
