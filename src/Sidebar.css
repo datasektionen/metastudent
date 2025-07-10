@@ -1,6 +1,6 @@
 /* Sidebar.css */
 .sidebar {
-    background-color: #e83d84;
+    background-color: var(--cerice);
     /* Blue background color */
     color: #F4CE14;
     /* White text color */
@@ -41,4 +41,22 @@
 
 .sidebar-wrapper.closed {
     transform: translateX(-250px);
+}
+
+.sidebar-hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: margin-left 0.3s ease;
+    color: var(--cerice);
 }
