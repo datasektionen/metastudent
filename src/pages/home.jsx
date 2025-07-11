@@ -143,7 +143,7 @@ const Home = () => {
                                     <h3 className={styles.subTitle}>Chapter Resources</h3>
                                     <p className={styles.bodyText}>Some events and clubs might differ between the CS and Media chapters:</p>
                                     <p className={styles.bodyText}>
-                                        All of the CS chapter&apos;s news and events can be found on <a href="https://datasektionen.se/en/news" target="_blank" rel="noopener noreferrer">datasektionen.se/en/news</a> or the CS chapter Discord server and all the clubs are listed on <a href="https://datasektionen.se/en/clubs" target="_blank" rel="noopener noreferrer">datasektionen.se/en/clubs</a>.
+                                        All of the CS chapter&apos;s news and events can be found on <a href="https://datasektionen.se/nyheter?lang=en" target="_blank" rel="noopener noreferrer">datasektionen.se/nyheter?lang=en</a> or the CS chapter Discord server and all the clubs are listed on <a href="https://datasektionen.se/namnder?lang=en" target="_blank" rel="noopener noreferrer">datasektionen.se/namnder?lang=en</a>.
                                     </p>
                                     <p className={styles.bodyText}>
                                         For the media chapter, check their website at <a href="https://medieteknik.com" target="_blank" rel="noopener noreferrer">medieteknik.com</a>.
