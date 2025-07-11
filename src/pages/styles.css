@@ -28,7 +28,7 @@
 }
 
 .nav-item a {
-    color: #e83d84;
+    color: var(--cerice);
     ;
 }
 
@@ -62,5 +62,5 @@ body {
 
 /* 
 href {
-    color: #e83d84;
+    color: var(--cerice);
 } */

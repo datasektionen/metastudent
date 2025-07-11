@@ -10,6 +10,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --cerice: #e83d84;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 a {

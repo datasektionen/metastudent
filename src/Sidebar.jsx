@@ -1,5 +1,5 @@
 // src/components/Sidebar.js
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router';
 import './Sidebar.css'; // Import the CSS file
 import './new-styles.css'
@@ -10,24 +10,30 @@ import logo from './assets/in-logo.png';
 function Sidebar() {
     const SHOW_SIDEBAR = 1400;
     const location = useLocation();
-    const [sidebarOpen, setSidebarOpen] = useState(window.innerWidth >= SHOW_SIDEBAR);
+    const [sidebarOpen, setSidebarOpen] = useState(shouldSidebarBeOpen());
     const [scrollOffset, setScrollOffset] = useState(0);
     const sidebarContentRef = useRef(null);
-    const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
-    const [arrowRotation, setArrowRotation] = useState(0); // Initial rotation angle
-    const [isSubMenuReportsOpen, setIsSubMenuReportsOpen] = useState(false);
-    const [arrowRotationReports, setArrowRotationReports] = useState(0);
+    const [userInteracted, setUserInteracted] = useState(false);
 
-    const [logoSrc, setLogoSrc] = useState('');
-
+    function shouldSidebarBeOpen() {
+        // Hide the sidebar when on the home page (front page) because we want the
+        // background image to span the entire screen
+        const isHomePage = location.pathname === '/';
+        const shouldHideSidebarOnHome = isHomePage && window.scrollY < window.innerHeight * 0.8;
+        const windowWidth = window.innerWidth;
+        return windowWidth >= SHOW_SIDEBAR && !shouldHideSidebarOnHome
+    }
 
     useEffect(() => {
-        function handleResize() {
-            const windowWidth = window.innerWidth;
-            setSidebarOpen(windowWidth >= SHOW_SIDEBAR);
+        function checkShouldOpenSidebar() {
+            if (userInteracted) {
+                // If the user has interacted with the sidebar,
+                // don't automatically open or close it.
+                return;
+            }
+            setSidebarOpen(shouldSidebarBeOpen());
         }
-
-        window.addEventListener('resize', handleResize);
+        checkShouldOpenSidebar();
 
         function handleScroll() {
             if (sidebarContentRef.current) {
@@ -36,25 +42,26 @@ function Sidebar() {
             }
         }
 
-        if (sidebarContentRef.current) {
-            sidebarContentRef.current.addEventListener('scroll', handleScroll);
+        window.addEventListener('resize', checkShouldOpenSidebar);
+        window.addEventListener('scroll', checkShouldOpenSidebar);
+
+        const currentSidebarRef = sidebarContentRef.current;
+        if (currentSidebarRef) {
+            currentSidebarRef.addEventListener('scroll', handleScroll);
         }
 
         return () => {
-            if (sidebarContentRef.current) {
-                sidebarContentRef.current.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('resize', checkShouldOpenSidebar);
+            window.removeEventListener('scroll', checkShouldOpenSidebar);
+            if (currentSidebarRef) {
+                currentSidebarRef.removeEventListener('scroll', handleScroll);
             }
         };
+    }, [location.pathname, userInteracted]);
 
-        // return () => {
-        //   window.removeEventListener('resize', handleResize);
-        // };
-    }, []);
-
-    const toggleSidebar = (e) => {
-
+    const toggleSidebar = () => {
         setSidebarOpen((prevState) => !prevState);
-        // Logic to open/close the sidebar here
+        setUserInteracted(true);
     };
 
 
@@ -62,24 +69,14 @@ function Sidebar() {
         // { label: 'Blizzworx Machines', path: '/blizzworx_machines' },
         { label: 'Home', path: '/' },
         { label: 'Student Life', path: '/student-life' },
-        { label: 'Incoming Students', path: '/incoming-students' },
-        { label: 'Going Abroad', path: '/abroad' },
+        // { label: 'Incoming Students', path: '/incoming-students' },
+        // { label: 'Going Abroad', path: '/abroad' },
         { label: 'Contact & FAQ', path: '/contact' },
     ];
 
-    const expandableLinks = [
-    ];
-
-    const toggleSubMenu = useCallback((e) => {
-        e.preventDefault(); // Prevent the default behavior of the event
-        e.stopPropagation();
-        setIsSubMenuOpen(prevState => !prevState);
-        setArrowRotation(prevRotation => (prevRotation === 0 ? 90 : 0));
-    }, []); // No dependencies as it's using internal state
-
-
     return (
-        <div className='iq-sidebar sidebar-default' style={{ left: sidebarOpen ? '0' : '-300px', zIndex: '999' }} > {/* Apply the "sidebar" class */}
+        <>           
+            <div className='iq-sidebar sidebar-default' style={{ left: sidebarOpen ? '0' : '-300px', zIndex: '999' }} > {/* Apply the "sidebar" class */}
             {/* <Logo toggleSidebar={toggleSidebar} sideBarOpen={sidebarOpen} /> */}
             <div className='iq-sidebar-logo d-flex align-items-end justify-content-between' style={{ paddingTop: '10px' }}>
                 <Link to="/" className="header-logo">
@@ -88,16 +85,14 @@ function Sidebar() {
                 </Link>
 
 
-                {/* If the sidebar is open, then show the 'X' button, otherwise show the three lines (burger) button */}
-                {window.innerWidth < SHOW_SIDEBAR ? (sidebarOpen ? (
+                {/* Show hamburger menu for mobile or when sidebar should be hidden on home page */}
+                {(sidebarOpen ? (
                     <div className="side-menu-bt-sidebar" onClick={toggleSidebar}>
                         <IoMdClose size="30px" style={{ marginLeft: '120px', marginTop: '-60px', color: '#F4CE14' }} />
-
                     </div>
-                ) : <div className="side-menu-bt-sidebar" style={{ marginLeft: '230px' }} onClick={toggleSidebar}>
-                    <RxHamburgerMenu size="30px" style={{ color: "#e83d84", marginTop: '-60px' }} />
-                    {/* {console.log("AAA")} */}
-                </div>) : null
+                ) : <div className="sidebar-hamburger-menu" onClick={toggleSidebar}>
+                    <RxHamburgerMenu size="30px" />
+                </div>)
                 }
             </div>
 
@@ -143,10 +138,8 @@ function Sidebar() {
                 </div>
 
             </div>
-        </div >
-
-
-        // </div>
+        </div>
+        </>
     );
 
 }
