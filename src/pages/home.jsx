@@ -46,7 +46,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg mx-3">
                             <p className={[styles.text, styles.shadow].join(' ')}>
-                                This website is run by the International Committee, which is
+                                This website is run by META&apos;s International Committee, which is
                                 a collaboration between the <strong className={styles.nowrap}>Computer Science</strong> and <strong className={styles.nowrap}>Media Technology</strong> chapters at KTH.
                             </p>
                         </div>
@@ -74,9 +74,9 @@ const Home = () => {
                             </p>
                             <p className={styles.bodyText}>
                                 The heart of our Chapters is our Chapter Hall called <strong>META</strong>, which is shared between the larger
-                                Computer Science (CS) Chapter and the smaller Media Chapter. META is open all the time, though you might need your KTH keycard
+                                Computer Science (CS) Chapter and the smaller Media Chapter. META is open between 6 AM and 3 AM, though you might need your KTH keycard
                                 to get in. During the day, students often sit there to study, eat lunch, or just hang out. Weekday afternoons
-                                at META are filled with informal events, while the weekend might have parties or other things.
+                                at META are usually filled with fun informal events, while the weekend might have parties or other things.
                             </p>
                         </div>
                     </div>
@@ -143,10 +143,10 @@ const Home = () => {
                                     <h3 className={styles.subTitle}>Chapter Resources</h3>
                                     <p className={styles.bodyText}>Some events and clubs might differ between the CS and Media chapters:</p>
                                     <p className={styles.bodyText}>
-                                        All of the CS chapter&apos;s news and events can be found on <a href="https://datasektionen.se/nyheter?lang=en" target="_blank" rel="noopener noreferrer">datasektionen.se/nyheter?lang=en</a> or the CS chapter Discord server and all the clubs are listed on <a href="https://datasektionen.se/namnder?lang=en" target="_blank" rel="noopener noreferrer">datasektionen.se/namnder?lang=en</a>.
+                                        All of the CS chapter&apos;s news and events can be found <a href="https://datasektionen.se/nyheter?lang=en" target="_blank" rel="noopener noreferrer">here</a> or on the CS chapter Discord server and all the clubs are listed <a href="https://datasektionen.se/namnder?lang=en" target="_blank" rel="noopener noreferrer">here</a>.
                                     </p>
                                     <p className={styles.bodyText}>
-                                        For the media chapter, check their website at <a href="https://medieteknik.com" target="_blank" rel="noopener noreferrer">medieteknik.com</a>.
+                                        For the Media chapter, check their website at <a href="https://medieteknik.com" target="_blank" rel="noopener noreferrer">medieteknik.com</a>.
                                     </p>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ const Home = () => {
                                 <div className={styles.socialCard}>
                                     <h3 className={styles.subTitle}>Join our WhatsApp Group!</h3>
                                     <p className={styles.bodyText}>WhatsApp group, by internationals for internationals. Open for everybody!</p>
-                                    <a href="https://chat.whatsapp.com/ImgYXrbHlyKAs3XzsPLBFT" className={styles.joinButton}>Join here</a>
+                                    <a href="https://dsekt.se/whatsapp" className={styles.joinButton}>Join here</a>
                                 </div>
                                 <div className={styles.socialCard}>
                                     <h3 className={styles.subTitle}>CS-Chapter&apos;s Discord</h3>

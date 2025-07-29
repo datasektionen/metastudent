@@ -1,6 +1,6 @@
 /* Sidebar.css */
 .sidebar {
-    background-color: var(--cerice);
+    background-color: var(--cerise);
     /* Blue background color */
     color: #F4CE14;
     /* White text color */
@@ -58,5 +58,5 @@
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: margin-left 0.3s ease;
-    color: var(--cerice);
+    color: var(--cerise);
 }

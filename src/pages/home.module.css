@@ -103,7 +103,7 @@
 .sectionTitle {
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--cerice);
+    color: var(--cerise);
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -147,7 +147,7 @@
 
 .linkButton {
     display: inline-block;
-    background: linear-gradient(135deg, var(--cerice) 0%, #d13574 100%);
+    background: linear-gradient(135deg, var(--cerise) 0%, #d13574 100%);
     color: white;
     padding: 1rem 2rem;
     border-radius: 8px;
